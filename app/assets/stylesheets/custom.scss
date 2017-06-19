@@ -1,0 +1,226 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+$purple-translucent: rgba(140,2,133,.6);
+$purple-opaque: rgb(140,2,133);
+
+//$purple-translucent: rgba(186,165,27,.6);
+//$purple-opaque: rgb(186,165,27);
+
+/*  universal */
+
+body {
+  padding-top: 60px;
+  //background-color: palevioletred;
+  background: url("space.jpg") no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+html{
+  overflow: hidden;
+  height: 100%;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-alight: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+.jumbotron {
+  //background-color: #8c0285;
+  //background: rgba(140,2,133,.6);
+  background: rgba(0,0,0,.6);
+  margin-top: 15px;
+  height: 270px;
+}
+
+h7 {
+  margin-top: -15px;
+  font-size: 1.5em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: whitesmoke;
+}
+
+.name_icon {
+  position: relative;
+  left: 120px;
+}
+
+.navbar{
+  //background-color: #8c0285;
+  background: $purple-translucent;
+  height: 60px;
+  ul {
+    color: white;
+    position: relative;
+    bottom: 50px;
+  }
+}
+
+h4 {
+  font-size: 30px;
+}
+
+.panel-custom00 {
+  background: $purple-translucent;
+  color: white;
+  width: 350px;
+  height: 620px;
+  position: absolute;
+  top: 465px;
+  left: 810px;
+}
+
+.panel-custom0 {
+  background: $purple-translucent;
+  color: white;
+  width: 1135px;
+  height: 75px;
+  position: relative;
+  top: -15px;
+}
+
+.panel-text{
+  font-size: 20px;
+  margin: 10px;
+  position: relative;
+  top: 30px;
+}
+
+.panel-custom1 {
+  background: $purple-translucent;
+  color: white;
+  width: 560px;
+  height: 560px;
+  position: relative;
+  top: 40px;
+  left: -150px;
+}
+
+.panel-custom2 {
+  background: $purple-translucent;
+  color: white;
+  width: 500px;
+  height: 650px;
+  position: relative;
+  top: -560px;
+  left: 1175px;
+}
+
+.pic_of_me_1 {
+  width: 100%;
+  opacity: 1;
+}
+
+.pic_of_me_2 {
+  width: 100%;
+  opacity: 1;
+  position: relative;
+  //left: 50px;
+}
+
+.btn-custom1 {
+  background-color: black;
+  color: whitesmoke;
+  &:hover {
+    color: $purple-opaque;
+  }
+}
+
+.btn-custom2 {
+  background-color: black;
+  color: whitesmoke;
+  &:hover {
+    color: $purple-opaque;
+  }
+}
+
+.fa {
+  color: $purple-translucent;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.btn-custom3 {
+  background-color: black;
+  color: whitesmoke;
+  &:hover {
+    color: $purple-opaque;
+  }
+  position: relative;
+  top: -22px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.facebook_icon {
+  margin-top: 3px;
+  width: 5%;
+}
+
+.github_icon {
+  margin-top: 3px;
+  width: 4%;
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 5em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: whitesmoke !important;
+}
+
+h2 {
+  font-size: 1.5em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: whitesmoke;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+
+/*  header  */
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
