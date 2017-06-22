@@ -12,4 +12,24 @@
 //
 //= require rails-ujs
 //= require turbolinks
+//= require jquery
 //= require_tree .
+
+$(document).ready(function() {
+    var img = $(".animate"),
+        width = img.get(0).width,
+        screenWidth = $(window).width()+1450,
+        duration = 60000;
+
+    function complete() {
+        img.css('left', 130);
+    }
+
+    function animatePlane() {
+        img.css("left", -width).animate({
+            "left": screenWidth
+        }, duration, animatePlane, complete());
+    }
+
+    animatePlane();
+});

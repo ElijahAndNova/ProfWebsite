@@ -10,16 +10,18 @@ $purple-opaque: rgb(140,2,133);
 /*  universal */
 
 body {
-  padding-top: 60px;
+  padding-top: 5px;
   //background-color: palevioletred;
   background: url("space.jpg") no-repeat center center fixed;
   background-size: cover;
-
+  overflow-x: hidden;
 }
 
 html{
   overflow: hidden;
-  height: 100%;
+  //height: 10%;
+  //zoom: 0.5;
+  //transform: scale(0.8);
 }
 
 section {
@@ -41,9 +43,14 @@ textarea {
 .jumbotron {
   //background-color: #8c0285;
   //background: rgba(140,2,133,.6);
+  margin-top: 60px;
   background: rgba(0,0,0,.6);
-  margin-top: 15px;
-  height: 270px;
+  height: 235px;
+}
+
+.pedigrees {
+  position: relative;
+  bottom: 80px;
 }
 
 h7 {
@@ -58,7 +65,9 @@ h7 {
 
 .name_icon {
   position: relative;
+  //text-align: center;
   left: 120px;
+  bottom: 40px;
 }
 
 .navbar{
@@ -81,9 +90,6 @@ h4 {
   color: white;
   width: 350px;
   height: 620px;
-  position: absolute;
-  top: 465px;
-  left: 810px;
 }
 
 .panel-custom0 {
@@ -92,7 +98,11 @@ h4 {
   width: 1135px;
   height: 75px;
   position: relative;
-  top: -15px;
+  text-align: center;
+  line-height: 75px;
+  vertical-align: middle;
+  bottom: 50px;
+  left: 20px;
 }
 
 .panel-text{
@@ -102,36 +112,64 @@ h4 {
   top: 30px;
 }
 
+.animate {
+  position: absolute;
+  .scroll1 {
+    left: -450px;
+  }
+  .scroll2 {
+    left: -850px;
+  }
+  .scroll3 {
+    left: -1400px;
+  }
+}
+
 .panel-custom1 {
   background: $purple-translucent;
   color: white;
-  width: 560px;
-  height: 560px;
+  width: .57*560px;
+  height: .57*560px;
   position: relative;
-  top: 40px;
-  left: -150px;
+  bottom: 34px;
 }
 
 .panel-custom2 {
   background: $purple-translucent;
   color: white;
-  width: 500px;
-  height: 650px;
+  width: .5*500px;
+  height: .5*650px;
   position: relative;
-  top: -560px;
-  left: 1175px;
+  bottom: 40px;
+}
+
+.panel-custom3 {
+  background: $purple-translucent;
+  color: white;
+  width: .5*800px;
+  height: .5*640px;
+  position: relative;
+  bottom: 40px;
 }
 
 .pic_of_me_1 {
   width: 100%;
   opacity: 1;
+
 }
 
 .pic_of_me_2 {
   width: 100%;
   opacity: 1;
   position: relative;
+  top: 5px;
   //left: 50px;
+}
+
+.pic_of_me_3 {
+  width: 100%;
+  opacity: 1;
+
 }
 
 .btn-custom1 {
@@ -163,7 +201,6 @@ h4 {
     color: $purple-opaque;
   }
   position: relative;
-  top: -22px;
   margin-left: 10px;
   margin-right: 10px;
 }
