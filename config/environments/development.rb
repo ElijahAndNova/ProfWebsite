@@ -14,7 +14,7 @@ Rails.application.configure do
 
   # Enable/disable caching. By default caching is disabled.
   if Rails.root.join('tmp/caching-dev.txt').exist?
-    config.action_controller.perform_caching = true
+    config.action_controller.perform_caching = false
 
     config.cache_store = :memory_store
     config.public_file_server.headers = {
@@ -51,4 +51,20 @@ Rails.application.configure do
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
+
+
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.default charset: 'utf-8'
+  config.action_mailer.default_url_options = { host: 'elijah.r.spiro@nasa.gov' }
+
+  config.action_mailer.perform_caching = false
+
+  config.action_mailer.smtp_settings = {
+    address: 'ndkssmtp01@ndc.nasa.gov',
+    port: 25,
+    domain: 'ndc.nasa.gov',
+  }
+
 end

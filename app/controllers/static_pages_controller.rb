@@ -7,9 +7,11 @@ class StaticPagesController < ApplicationController #The < sign indicates inheri
   end
 
   def code_portfolio
+    @projects = Project.all
   end
 
   def resume
+    send_file "#{Rails.root}/app/assets/files/ElijahSpiroResume.pdf", type: 'application/pdf', disposition: 'inline'
   end
 
   def research
@@ -22,6 +24,11 @@ class StaticPagesController < ApplicationController #The < sign indicates inheri
   end
 
   def get_in_touch
+  end
+
+  def email
+    ContactMailer.email_me(params[:name], params[:email], params[:text]).deliver
+    redirect_to(root_path)
   end
 
 end

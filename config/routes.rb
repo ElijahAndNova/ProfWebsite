@@ -2,23 +2,24 @@ Rails.application.routes.draw do
 
   root 'static_pages#home'
 
-  get 'static_pages/home'
+  get 'home', to: 'static_pages#home', as: 'home'
 
-  #get '/about_me', to: 'static_pages#about_me'
-  get 'static_pages/about_me'
+  get 'about_me', to: 'static_pages#about_me', as: 'about_me'
 
-  #get '/code_portfolio', to: 'static_pages#code_portfolio'
-  get 'static_pages/code_portfolio'
+  get 'code_portfolio', to: 'static_pages#code_portfolio', as: 'code_portfolio'
 
-  get 'static_pages/resume'
+  get 'resume', to: 'static_pages#resume', as: 'resume'
 
-  get 'static_pages/research'
+  get 'research', to: 'static_pages#research', as: 'research'
 
-  get 'static_pages/publications'
+  get 'publications', to: 'static_pages#publications', as: 'publications'
 
-  get 'static_pages/awards'
+  get 'awards', to: 'static_pages#awards', as: 'awards'
 
-  get 'static_pages/get_in_touch'
+  get 'get_in_touch', to: 'static_pages#get_in_touch', as: 'get_in_touch'
+
+  post 'get_in_touch', to: 'static_pages#email'
+
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

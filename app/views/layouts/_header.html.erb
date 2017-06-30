@@ -2,17 +2,17 @@
   <div class="container">
     <%= link_to image_tag("facebook_logo.png", class: :facebook_icon, alt: "Facebook"), "https://www.facebook.com/Elijah.Spiro", target: :_blank %>
     <%= link_to image_tag("github_logo.png", class: :github_icon, alt: "GitHub"), "https://github.com/ElijahAndNova", target: :_blank %>
-
+    <%= link_to image_tag("NASA_logo.png", class: :NASA_icon, alt: "NASA"), "https://www.nasa.gov/education/intern/feature/elijah-spiro-getting-by-with-a-little-help-from-a-friend", target: :_blank %>
     <nav>
-      <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Home", "home" %></li>
-        <li><%= link_to "About Me", "about_me" %></li>
-        <li><%= link_to "Code Portfolio", "code_portfolio" %></li>
-        <li><%= link_to "Resumé", "resume" %></li>
-        <li><%= link_to "Research", "research" %></li>
-        <li><%= link_to "Publications", "publications" %></li>
-        <li><%= link_to "Awards", "awards" %></li>
-        <li><%= link_to "Get in Touch", "get_in_touch" %></li>
+      <ul class="nav navbar-nav navbar-right navbar-buttons">
+        <li><%= link_to "Home", home_path %></li>
+        <li><%= link_to "About Me", about_me_path %></li>
+        <li><%= link_to "Code Portfolio", code_portfolio_path %></li>
+        <li><%= link_to "Resumé", resume_path, target: :_blank %></li>
+        <li><%= link_to "Research", research_path %></li>
+        <li><%= link_to "Publications", "https://arxiv.org/pdf/1704.06260.pdf", target: :_blank %></li>
+        <li><%= link_to "Awards", awards_path %></li>
+        <li><%= link_to "Get in Touch", get_in_touch_path %></li>
       </ul>
     </nav>
   </div>
