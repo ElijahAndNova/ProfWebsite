@@ -1,0 +1,20 @@
+<%= javascript_include_tag 'portfolio', 'data-turbolinks-track'=> 'reload' %>
+
+<% #provide(:title, "Code Portfolio") %>
+
+<%= image_tag("up_arrow.png", class:"arrow-up") %>
+
+<div class="panel-codeblock">
+  <% @projects.each_with_index do |project, i| %>
+      <div class="row project-panel" id="row_<%=i+1%>">
+        <div class="col-xs-7 project_description">
+          <%= project.description %>
+        </div>
+        <div class="col-xs-5">
+          <%= image_tag(project.image_filepath) %>
+        </div>
+      </div>
+  <% end %>
+</div>
+
+<%= image_tag("down_arrow.png", class:"arrow-down") %>

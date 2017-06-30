@@ -2,7 +2,7 @@
 @import "bootstrap";
 
 $purple-translucent: rgba(140,2,133,.6);
-$purple-opaque: rgb(140,2,133);
+$purple-opaque: rgba(140,2,133, .8);
 
 //$purple-translucent: rgba(186,165,27,.6);
 //$purple-opaque: rgb(186,165,27);
@@ -12,13 +12,19 @@ $purple-opaque: rgb(140,2,133);
 body {
   padding-top: 5px;
   //background-color: palevioletred;
-  background: url("space.jpg") no-repeat center center fixed;
+  background: url("space_wyatt.jpg") no-repeat center center fixed;
   background-size: cover;
   overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.navbar-buttons {
+  background-color: black;
+  opacity: .7;
 }
 
 html{
-  overflow: hidden;
+  //overflow: hidden;
   //height: 10%;
   //zoom: 0.5;
   //transform: scale(0.8);
@@ -44,7 +50,7 @@ textarea {
   //background-color: #8c0285;
   //background: rgba(140,2,133,.6);
   margin-top: 60px;
-  background: rgba(0,0,0,.6);
+  background: rgba(0,0,0,1);
   height: 235px;
 }
 
@@ -72,6 +78,7 @@ h7 {
 
 .navbar{
   //background-color: #8c0285;
+  border-bottom: 1px solid $purple-translucent;
   background: $purple-translucent;
   height: 60px;
   ul {
@@ -85,11 +92,82 @@ h4 {
   font-size: 30px;
 }
 
+.project-panel {
+  display: none;
+}
+
+.panel-codeblock {
+  border: 1px solid white;
+  background: $purple-opaque;
+  width: 1100px;
+  height: 400px;
+  position: relative;
+  margin-top: 0px;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  img {
+    width: 85%;
+    margin-left: 30px !important;
+    margin-top: 10px;
+    //margin: auto;
+  }
+  .project_description {
+    margin-top: 100px;
+  }
+}
+
+.arrow-down {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 75px;
+  margin-left: 45%;
+  opacity: .7;
+  &:hover {
+    opacity: .4;
+    background-color: white;
+  }
+}
+
+.arrow-up {
+  height: 100px;
+  width: 100px;
+  margin-top: 75px;
+  margin-left: 45%;
+  opacity: .7;
+  &:hover {
+    opacity: .4;
+    background-color: white;
+  }
+}
+
+.contact-page {
+  color: white;
+  background-color: $purple-opaque;
+  margin: auto;
+  margin-top: 100px;
+}
+
 .panel-custom00 {
   background: $purple-translucent;
   color: white;
   width: 350px;
   height: 620px;
+}
+
+.panel-about {
+  border: 1px solid white;
+  opacity: 0;
+  display: hidden !important;
+  background: $purple-opaque;
+  position: relative;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  width: 1000px;
+  height: 600px;
+  margin: auto;
+  margin-top: 10%;
 }
 
 .panel-custom0 {
@@ -123,10 +201,17 @@ h4 {
   .scroll3 {
     left: -1400px;
   }
+  .scroll4 {
+    left: -1950px;
+  }
+  .scroll5 {
+    left: -2300px;
+  }
 }
 
 .panel-custom1 {
   background: $purple-translucent;
+  //border: 1px solid white;
   color: white;
   width: .57*560px;
   height: .57*560px;
@@ -135,6 +220,7 @@ h4 {
 }
 
 .panel-custom2 {
+  //border: 1px solid white;
   background: $purple-translucent;
   color: white;
   width: .5*500px;
@@ -144,12 +230,37 @@ h4 {
 }
 
 .panel-custom3 {
+  //border: 1px solid white;
   background: $purple-translucent;
   color: white;
   width: .5*800px;
   height: .5*640px;
   position: relative;
   bottom: 40px;
+}
+
+.ultimate {
+  display: none;
+}
+
+.panel-custom4 {
+  //border: 1px solid white;
+  background: $purple-translucent;
+  color: white;
+  width: .5*800px;
+  height: .49*640px;
+  position: relative;
+  bottom: 30px;
+}
+
+.panel-custom5 {
+  //border: 1px solid white;
+  background: $purple-translucent;
+  color: white;
+  width: .55*400px;
+  height: .7*640px;
+  position: relative;
+  bottom: 30px;
 }
 
 .pic_of_me_1 {
@@ -170,6 +281,25 @@ h4 {
   width: 100%;
   opacity: 1;
 
+}
+
+.pic_of_me_4 {
+  width: 100%;
+  opacity: 1;
+  position: relative;
+  top: 5px;
+}
+
+.pic_of_me_6 {
+  width: 95%;
+  opacity: 1;
+  position: relative;
+  top: 5px;
+}
+
+.pic_of_me_5 {
+  width: 90%;
+  margin-left: 100px;
 }
 
 .btn-custom1 {
@@ -213,6 +343,12 @@ h4 {
 .github_icon {
   margin-top: 3px;
   width: 4%;
+}
+
+.NASA_icon {
+  margin-left: 2px;
+  margin-top: 2px;
+  width: 4.5%;
 }
 
 /* typography */
