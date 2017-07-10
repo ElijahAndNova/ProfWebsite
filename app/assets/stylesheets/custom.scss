@@ -1,11 +1,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-$purple-translucent: rgba(140,2,133,.6);
-$purple-opaque: rgba(140,2,133, .8);
+//$purple-translucent: rgba(140,2,133,.6);
+//$purple-opaque: rgba(140,2,133, .8);
 
-//$purple-translucent: rgba(186,165,27,.6);
-//$purple-opaque: rgb(186,165,27);
+$purple-translucent: rgba(0,0,150,.6);
+$purple-opaque: rgba(0,0,150,.8);
 
 /*  universal */
 
@@ -19,8 +19,9 @@ body {
 }
 
 .navbar-buttons {
-  background-color: black;
-  opacity: .7;
+  //background-color: black;
+  //opacity: .7;
+  right: 1%;
 }
 
 html{
@@ -47,8 +48,6 @@ textarea {
 }
 
 .jumbotron {
-  //background-color: #8c0285;
-  //background: rgba(140,2,133,.6);
   margin-top: 60px;
   background: rgba(0,0,0,1);
   height: 235px;
@@ -110,11 +109,18 @@ h4 {
     width: 85%;
     margin-left: 30px !important;
     margin-top: 10px;
+    border-radius: 8px;
     //margin: auto;
   }
   .project_description {
     margin-top: 100px;
   }
+}
+
+.navbar-icons {
+  background-color: rgba(0,0,0,1);
+  border: white solid 1px;
+  margin-top: 2px;
 }
 
 .arrow-down {
@@ -124,8 +130,11 @@ h4 {
   margin-left: 45%;
   opacity: .7;
   &:hover {
-    opacity: .4;
-    background-color: white;
+    opacity: .8;
+    background-color: $purple-opaque;
+    border-bottom: white solid 1px;
+    border-left: white solid 1px;
+    border-right: white solid 1px;
   }
 }
 
@@ -136,8 +145,11 @@ h4 {
   margin-left: 45%;
   opacity: .7;
   &:hover {
-    opacity: .4;
-    background-color: white;
+    opacity: .8;
+    background-color: $purple-opaque;
+    border-top: white solid 1px;
+    border-left: white solid 1px;
+    border-right: white solid 1px;
   }
 }
 
@@ -155,19 +167,246 @@ h4 {
   height: 620px;
 }
 
+.btn-resume {
+  background-color: black;
+  margin: 70px;
+  &:hover {
+    color: white;
+  }
+}
+
 .panel-about {
+   border: 1px solid white;
+   opacity: 0;
+   display: hidden !important;
+   background: $purple-translucent;
+   position: relative;
+   text-align: center;
+   line-height: 20px;
+   color: white;
+   width: 400px;
+   height: 600px;
+   //margin: auto;
+   margin-top: 10%;
+   left: 10px;
+   //margin-left: 0%;
+ }
+
+.panel-awards {
+  border: 1px solid white;
+  opacity: 0;
+  display: hidden !important;
+  background: $purple-translucent;
+  position: relative;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  width: 400px;
+  height: 600px;
+  //margin: auto;
+  margin-top: 10%;
+  left: 10px;
+  //margin-left: 0%;
+}
+
+.panel-awards {
+  padding: 10px;
+  border: 1px solid white;
+  opacity: 0;
+  display: fhidden !important;
+  background: $purple-opaque;
+  position: relative;
+  text-align: center;
+  line-height: 28px;
+  color: white;
+  width: 700px;
+  height: 600px;
+  bottom: 600px;
+  left: 460px;
+  font-size: 16px;
+}
+
+.panel-awards2 {
+  padding: 10px;
+  border: 1px solid white;
+  opacity: 0;
+  display: fhidden !important;
+  background: $purple-opaque;
+  position: relative;
+  text-align: center;
+  line-height: 28px;
+  color: white;
+  width: 700px;
+  height: 600px;
+  bottom: 600px;
+  left: 460px;
+  font-size: 16px;
+}
+
+.portfolio-panels {
+  opacity: 0;
+  display: fhidden !important;
+}
+
+.pic_of_poster{
+  width: 100%;
+  image-orientation: from-image;
+  border-radius: 8px;
+}
+
+.pic_of_me_with_poster{
+  width: 100%;
+  border-radius: 8px;
+  image-orientation: from-image;
+}
+
+.panel-research {
+  padding: 10px;
+  border: 1px solid white;
+  opacity: 0;
+  display: hidden !important;
+  background: $purple-translucent;
+  position: relative;
+  text-align: center;
+  line-height: 28px;
+  color: white;
+  width: 408px;
+  height: 540px;
+  //bottom: 600px;
+  //left: 460px;
+  top: 20px;
+  right: 100px;
+}
+
+.panel-research2 {
+  padding: 10px;
   border: 1px solid white;
   opacity: 0;
   display: hidden !important;
   background: $purple-opaque;
   position: relative;
+  text-align: left;
+  line-height: 25px;
+  color: white;
+  width: 450px;
+  height: 290px;
+  bottom: 545px;
+  left: 325px;
+  font-size: 14px;
+}
+
+a {
+  color: darkgoldenrod;
+}
+
+.head{
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.panel-research4 {
+  padding: 10px;
+  border: 1px solid white;
+  opacity: 0;
+  display: hidden !important;
+  background: $purple-opaque;
+  position: relative;
+  text-align: left;
+  line-height: 25px;
+  color: white;
+  width: 450px;
+  height: 300px;
+  bottom: 530px;
+  left: 325px;
+  font-size: 14px;
+}
+
+.panel-research3 {
+  padding: 10px;
+  border: 1px solid white;
+  opacity: 0;
+  display: fhidden !important;
+  background: $purple-translucent;
+  position: relative;
+  text-align: center;
+  line-height: 28px;
+  color: white;
+  width: 450px;
+  height: 600px;
+  bottom: 1130px;
+  left: 790px;
+  font-size: 16px;
+}
+
+.panel-about2 {
+  padding: 10px;
+  border: 1px solid white;
+  opacity: 0;
+  display: fhidden !important;
+  background: $purple-opaque;
+  position: relative;
+  text-align: center;
+  line-height: 28px;
+  color: white;
+  width: 700px;
+  height: 600px;
+  bottom: 600px;
+  left: 460px;
+  font-size: 16px;
+  .non-center {
+    text-align: left;
+  }
+  //margin: auto;
+  //margin-top: 10%;
+  //margin-left: 0%;
+  //background: $purple-translucent;
+  //width: 200px;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.panel-resume1 {
+  border: 1px solid white;
+  opacity: 0;
+  display: hidden !important;
+  background: $purple-translucent;
+  position: relative;
   text-align: center;
   line-height: 20px;
   color: white;
-  width: 1000px;
-  height: 600px;
-  margin: auto;
-  margin-top: 10%;
+  width: 600px;
+  height: 200px;
+  margin-left: 225px;
+}
+
+.panel-publications1 {
+  border: 1px solid white;
+  opacity: 0;
+  display: hidden !important;
+  background: $purple-translucent;
+  position: relative;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  width: 600px;
+  height: 200px;
+  margin-left: 225px;
 }
 
 .panel-custom0 {
@@ -193,6 +432,7 @@ h4 {
 .animate {
   position: absolute;
   .scroll1 {
+    margin-top: 5%;
     left: -450px;
   }
   .scroll2 {
@@ -207,9 +447,12 @@ h4 {
   .scroll5 {
     left: -2300px;
   }
+  margin-top: 0%;
 }
 
 .panel-custom1 {
+  display: block;
+  margin: auto;
   background: $purple-translucent;
   //border: 1px solid white;
   color: white;
@@ -223,8 +466,8 @@ h4 {
   //border: 1px solid white;
   background: $purple-translucent;
   color: white;
-  width: .5*500px;
-  height: .5*650px;
+  width: .6*500px;
+  height: .6*650px;
   position: relative;
   bottom: 40px;
 }
@@ -233,8 +476,8 @@ h4 {
   //border: 1px solid white;
   background: $purple-translucent;
   color: white;
-  width: .5*800px;
-  height: .5*640px;
+  width: .6*800px;
+  height: .6*640px;
   position: relative;
   bottom: 40px;
 }
@@ -247,8 +490,8 @@ h4 {
   //border: 1px solid white;
   background: $purple-translucent;
   color: white;
-  width: .5*800px;
-  height: .49*640px;
+  width: .6*800px;
+  height: .59*640px;
   position: relative;
   bottom: 30px;
 }
@@ -257,8 +500,8 @@ h4 {
   //border: 1px solid white;
   background: $purple-translucent;
   color: white;
-  width: .55*400px;
-  height: .7*640px;
+  width: .65*400px;
+  height: 380px;
   position: relative;
   bottom: 30px;
 }
@@ -266,7 +509,7 @@ h4 {
 .pic_of_me_1 {
   width: 100%;
   opacity: 1;
-
+  border-radius: 8px;
 }
 
 .pic_of_me_2 {
@@ -274,13 +517,14 @@ h4 {
   opacity: 1;
   position: relative;
   top: 5px;
+  border-radius: 8px;
   //left: 50px;
 }
 
 .pic_of_me_3 {
   width: 100%;
   opacity: 1;
-
+  border-radius: 8px;
 }
 
 .pic_of_me_4 {
@@ -288,18 +532,24 @@ h4 {
   opacity: 1;
   position: relative;
   top: 5px;
+  border-radius: 8px;
 }
 
 .pic_of_me_6 {
-  width: 95%;
+  width: 90%;
   opacity: 1;
   position: relative;
   top: 5px;
+  left: 5px;
+  border-radius: 8px;
+  margin-top: 14px;
+  margin-right: 7px;
 }
 
 .pic_of_me_5 {
   width: 90%;
   margin-left: 100px;
+  border-radius: 8px;
 }
 
 .btn-custom1 {
@@ -318,7 +568,7 @@ h4 {
   }
 }
 
-.fa {
+.fa-space-shuttle {
   color: $purple-translucent;
   margin-left: 20px;
   margin-right: 20px;

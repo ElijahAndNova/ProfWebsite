@@ -1,4 +1,7 @@
-$(document).on("turbolinks:load", (function() {
+$(document).ready((function() {
+
+    var screenHeight = window.innerHeight;
+    $('.animate').css("margin-top", ((screenHeight-300)/2-225));
 
     $('.ultimate').fadeIn(500);
 
@@ -8,7 +11,7 @@ $(document).on("turbolinks:load", (function() {
     var img = $(".animate"),
         width = img.get(0).width,
         screenWidth = $(window).width()+2200,
-        duration = 30000;
+        duration = 25000;
 
     function complete() {
         img.css('left', 130);

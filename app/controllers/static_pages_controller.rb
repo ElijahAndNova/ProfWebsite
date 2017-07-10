@@ -10,7 +10,7 @@ class StaticPagesController < ApplicationController #The < sign indicates inheri
     @projects = Project.all
   end
 
-  def resume
+  def resume_open
     send_file "#{Rails.root}/app/assets/files/ElijahSpiroResume.pdf", type: 'application/pdf', disposition: 'inline'
   end
 
