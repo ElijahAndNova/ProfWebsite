@@ -22,4 +22,7 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: db/elijah_spiro_production
+  username: deploy
+  password: <%= ENV["DATABASE_PASSWORD"] %>
+
