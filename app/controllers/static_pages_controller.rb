@@ -14,6 +14,10 @@ class StaticPagesController < ApplicationController #The < sign indicates inheri
     send_file "#{Rails.root}/app/assets/files/ElijahSpiroResume.pdf", type: 'application/pdf', disposition: 'inline'
   end
 
+  def resume_download
+    send_file "#{Rails.root}/app/assets/files/ElijahSpiroResume.pdf"
+  end
+
   def research
   end
 
