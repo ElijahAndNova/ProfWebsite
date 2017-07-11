@@ -167,9 +167,17 @@ h4 {
   height: 620px;
 }
 
+.btn-pub1 {
+  background-color: black;
+  margin: 40px;
+  &:hover {
+    color: white;
+  }
+}
+
 .btn-resume {
   background-color: black;
-  margin: 70px;
+  margin: 30px;
   &:hover {
     color: white;
   }
@@ -392,14 +400,20 @@ a {
   color: white;
   width: 600px;
   height: 200px;
-  margin-left: 225px;
+  margin-left: 250px;
+}
+
+.pub-text {
+  margin-top: 25px;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 .panel-publications1 {
   border: 1px solid white;
   opacity: 0;
   display: hidden !important;
-  background: $purple-translucent;
+  background: $purple-opaque;
   position: relative;
   text-align: center;
   line-height: 20px;
@@ -407,6 +421,22 @@ a {
   width: 600px;
   height: 200px;
   margin-left: 225px;
+}
+
+.panel-publications2 {
+  border: 1px solid white;
+  opacity: 0;
+  display: hidden !important;
+  background: $purple-opaque;
+  position: relative;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  width: 600px;
+  height: 100px;
+  margin: auto;
+  //margin-left: 225px;
+  margin-top: 30px;
 }
 
 .panel-custom0 {

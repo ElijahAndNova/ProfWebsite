@@ -12,6 +12,8 @@ Rails.application.routes.draw do
 
   get 'resume_open', to: 'static_pages#resume_open'
 
+  get 'resume_download', to: 'static_pages#resume_download'
+
   get 'research', to: 'static_pages#research', as: 'research'
 
   get 'publications', to: 'static_pages#publications', as: 'publications'
