@@ -6,7 +6,7 @@ function fadeTheseIn(){
 $(document).ready((function() {
 
     var screenHeight = window.innerHeight;
-    $('.awards-panels').css("margin-top", ((screenHeight-300)/2-125));
+    $('.panel-awards').css("margin-top", ((screenHeight-300)/2-50));
 
     fadeTheseIn();
 
