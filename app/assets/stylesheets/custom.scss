@@ -123,6 +123,24 @@ h4 {
   margin-top: 2px;
 }
 
+.facebook_icon{
+  &:hover{
+    opacity: .7;
+  }
+}
+
+.github_icon{
+  &:hover{
+    opacity: .7;
+  }
+}
+
+.NASA_icon{
+  &:hover{
+    opacity: .7;
+  }
+}
+
 .arrow-down {
   height: 100px;
   width: 100px;
@@ -469,38 +487,40 @@ a {
 .animate {
   position: absolute;
   .scroll1 {
-    margin-top: 5%;
-    left: -450px;
+    top: 30px;
+    left: -420+1050px;
   }
   .scroll2 {
-    left: -850px;
+    left: -850+1050px;
   }
   .scroll3 {
-    left: -1400px;
+    left: -1450+1050px;
   }
   .scroll4 {
-    left: -1950px;
+    left: -2050+1050px;
   }
   .scroll5 {
-    left: -2300px;
+    left: -2650+1050px;
   }
-  margin-top: 0%;
+  .scroll6{
+    left: -3250+1050px;
+  }
 }
 
 .panel-custom1 {
   display: block;
   margin: auto;
   background: $purple-translucent;
-  //border: 1px solid white;
+  border: 1px solid white;
   color: white;
   width: .57*560px;
   height: .57*560px;
   position: relative;
-  bottom: 34px;
+  bottom: 30px;
 }
 
 .panel-custom2 {
-  //border: 1px solid white;
+  border: 1px solid white;
   background: $purple-translucent;
   color: white;
   width: .6*500px;
@@ -510,7 +530,7 @@ a {
 }
 
 .panel-custom3 {
-  //border: 1px solid white;
+  border: 1px solid white;
   background: $purple-translucent;
   color: white;
   width: .6*800px;
@@ -524,29 +544,40 @@ a {
 }
 
 .panel-custom4 {
-  //border: 1px solid white;
+  border: 1px solid white;
   background: $purple-translucent;
   color: white;
   width: .6*800px;
-  height: .59*640px;
+  height: .57*640px;
   position: relative;
   bottom: 30px;
 }
 
 .panel-custom5 {
-  //border: 1px solid white;
+  border: 1px solid white;
   background: $purple-translucent;
   color: white;
-  width: .65*400px;
-  height: 380px;
+  width: 500px;
+  height: 360px;
   position: relative;
-  bottom: 30px;
+  bottom: 20px;
+}
+
+.panel-custom6 {
+  border: 1px solid white;
+  background: $purple-translucent;
+  color: white;
+  width: 500px;
+  height: 370px;
+  position: relative;
+  bottom: 20px;
 }
 
 .pic_of_me_1 {
   width: 100%;
   opacity: 1;
   border-radius: 8px;
+  margin-top: 5px;
 }
 
 .pic_of_me_2 {
@@ -568,24 +599,28 @@ a {
   width: 100%;
   opacity: 1;
   position: relative;
-  top: 5px;
+  margin-top: 5px;
   border-radius: 8px;
 }
 
 .pic_of_me_6 {
-  width: 90%;
+  width: 100%;
   opacity: 1;
   position: relative;
-  top: 5px;
-  left: 5px;
   border-radius: 8px;
-  margin-top: 14px;
-  margin-right: 7px;
+}
+
+.pic_of_me_7 {
+  width: 100%;
+  opacity: 1;
+  position: relative;
+  border-radius: 8px;
 }
 
 .pic_of_me_5 {
   width: 90%;
-  margin-left: 100px;
+  margin-top: 20px;
+  //margin-left: 100px;
   border-radius: 8px;
 }
 
