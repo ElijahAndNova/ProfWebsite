@@ -2,7 +2,8 @@
 lock '3.4.1'
 
 set :application, 'elijah_spiro_production'
-set :repo_url, 'https://github.com/ElijahAndNova/ProfWebsite.git'
+set :repository, 'https://elijahandnova:meowcow521@github.com/ElijahAndNova/ProfWebsite.git'
+# set :repo_url, 'https://github.com/ElijahAndNova/ProfWebsite.git'
 set :user, "deploy"
 set :stages, %w(production)
 
