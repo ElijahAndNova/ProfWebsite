@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e3cdf93-cae2-43c7-b6d6-2ab9f6d21084" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="$PROJECT_DIR$/config/deploy.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -39,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1816">
-              <caret line="253" column="14" lean-forward="false" selection-start-line="253" selection-start-column="14" selection-end-line="253" selection-end-column="14" />
+            <state relative-caret-position="383">
+              <caret line="146" column="30" lean-forward="false" selection-start-line="146" selection-start-column="30" selection-end-line="146" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -69,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="deploy.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -181,8 +181,8 @@
         <option value="$PROJECT_DIR$/app/views/static_pages/about_me.html.erb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/home.js" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
       </list>
     </option>
   </component>
@@ -793,12 +793,12 @@
       <workItem from="1497024590196" duration="97000" />
       <workItem from="1497024980706" duration="38626000" />
       <workItem from="1497975223701" duration="14389000" />
-      <workItem from="1498584849738" duration="56913000" />
+      <workItem from="1498584849738" duration="57185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110485000" />
+    <option name="totallyTimeSpent" value="110757000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1232,14 +1232,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1816">
-          <caret line="253" column="14" lean-forward="false" selection-start-line="253" selection-start-column="14" selection-end-line="253" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1260,6 +1252,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="146" column="30" lean-forward="false" selection-start-line="146" selection-start-column="30" selection-end-line="146" selection-end-column="30" />
           <folding />
         </state>
       </provider>

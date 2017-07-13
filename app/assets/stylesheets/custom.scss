@@ -125,23 +125,26 @@ h4 {
 }
 
 .facebook_icon{
+  transition: .25s;
   &:hover{
     //opacity: .7;
-    transform: scale(1.1,1.1);
+    transform: scale(1.15,1.15);
   }
 }
 
 .github_icon{
+  transition: .25s;
   &:hover{
     //opacity: .7;
-    transform: scale(1.1,1.1);
+    transform: scale(1.15,1.15);
   }
 }
 
 .NASA_icon{
+  transition: .25s;
   &:hover{
     //opacity: .7;
-    transform: scale(1.1,1.1);
+    transform: scale(1.15,1.15);
   }
 }
 
