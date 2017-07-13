@@ -24,6 +24,5 @@ production:
   <<: *default
   database: db/elijah_spiro_production
   username: deploy
-  password: meowcow521
-#  password: <%= ENV["DATABASE_PASSWORD"] %>
+  password: <%= ENV["DATABASE_PASSWORD"] %>
 
