@@ -1,6 +1,4 @@
 $(document).ready((function() {
-// $(document).on('ready page:load', function() {
-// $(document).on("turbolinks:load", function() {
 
     var screenHeight = window.innerHeight;
     $('.animate').css("margin-top", ((screenHeight - 300) / 2 - 225));
@@ -11,11 +9,8 @@ $(document).ready((function() {
     // $('.all').classList.remove(".ultimate");
 
     var img = $(".animate"),
-        width = img.get(0).width,
         screenWidth = $(window).width() + 1600,
-        // duration = 50000;
         duration = 25000;
-    // duration = 10000;
 
     function animatePlane() {
         img.css('opacity', 0);
@@ -26,7 +21,33 @@ $(document).ready((function() {
         }, duration, animatePlane);
     }
 
+    function checkHovers(){
+        $('.NASA_icon').hover(function() {
+            $('.github_icon').css('opacity', '.5');
+            $('.facebook_icon').css('opacity', '.5');
+        }, function() {
+            $('.github_icon').css('opacity', '1');
+            $('.facebook_icon').css('opacity', '1');
+        });
+
+        $('.facebook_icon').hover(function() {
+            $('.github_icon').css('opacity', '.5');
+            $('.NASA_icon').css('opacity', '.5');
+        }, function() {
+            $('.github_icon').css('opacity', '1');
+            $('.NASA_icon').css('opacity', '1');
+        });
+
+        $('.github_icon').hover(function() {
+            $('.facebook_icon').css('opacity', '.5');
+            $('.NASA_icon').css('opacity', '.5');
+        }, function() {
+            $('.facebook_icon').css('opacity', '1');
+            $('.NASA_icon').css('opacity', '1');
+        });
+    }
+
+    // checkHovers();
     animatePlane();
-// });
-//     });
+
 }));
