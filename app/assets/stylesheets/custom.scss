@@ -5,14 +5,15 @@
 //$purple-opaque: rgba(140,2,133, .8);
 
 $purple-translucent: rgba(0,0,150,.6);
-$purple-opaque: rgba(0,0,150,.8);
+$purple-opaque: rgba(0,0,150,.7);
 
 /*  universal */
 
 body {
   padding-top: 5px;
   //background-color: palevioletred;
-  background: asset_url("space_wyatt.jpg") no-repeat center center fixed;
+  //background: asset_url("space_wyatt.jpg") no-repeat center center fixed;
+  background: linear-gradient(180deg, black, rgb(10,10,10), rgb(255,255,255)) no-repeat center center fixed;
   background-size: cover;
   overflow-x: hidden;
   overflow-y: hidden;
