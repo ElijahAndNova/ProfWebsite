@@ -126,19 +126,22 @@ h4 {
 
 .facebook_icon{
   &:hover{
-    opacity: .7;
+    //opacity: .7;
+    transform: scale(1.1,1.1);
   }
 }
 
 .github_icon{
   &:hover{
-    opacity: .7;
+    //opacity: .7;
+    transform: scale(1.1,1.1);
   }
 }
 
 .NASA_icon{
   &:hover{
-    opacity: .7;
+    //opacity: .7;
+    transform: scale(1.1,1.1);
   }
 }
 
@@ -149,7 +152,7 @@ h4 {
   margin-left: 45%;
   opacity: .7;
   &:hover {
-    opacity: .8;
+    opacity: .9;
     background-color: $purple-opaque;
     border-bottom: white solid 1px;
     border-left: white solid 1px;
@@ -277,7 +280,7 @@ h4 {
 
 .pic_of_poster{
   width: 100%;
-  image-orientation: from-image;
+  image-orientation: 90deg;
   border-radius: 8px;
 }
 
@@ -291,7 +294,7 @@ h4 {
 .pic_of_me_with_poster{
   width: 100%;
   border-radius: 8px;
-  image-orientation: from-image;
+  image-orientation: 90deg;
 }
 
 .panel-research {
