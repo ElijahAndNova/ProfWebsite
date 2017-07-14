@@ -1,0 +1,2 @@
+class Coming < ApplicationRecord
+end

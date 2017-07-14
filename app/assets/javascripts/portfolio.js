@@ -16,14 +16,23 @@ function start(){
 }
 
 function releaseDown(){
-    $('.arrow-down').fadeIn(500);
+    var isDownHovered = $('.arrow-down').is(":hover");
+    if (isDownHovered)
+        $('.arrow-down').css("transform", "scale(1.15,1.15)");
+    else
+        $('.arrow-down').css("transform", "scale(1,1)");
+    var isUpHovered = $('.arrow-up').is(":hover");
+    if (isUpHovered)
+        $('.arrow-up').css("transform", "scale(1.15,1.15)");
+    else
+        $('.arrow-up').css("transform", "scale(1,1)");
 }
 
 function releaseUp() {
     $('.arrow-up').fadeIn(500);
 }
 
-var project_count = 3;
+var project_count = 4;
 
 $(document).ready((function() {
 
@@ -32,15 +41,15 @@ $(document).ready((function() {
 
     fadeMoreIn();
 
-    setTimeout(function(){ start(); }, 500);
+    // setTimeout(function(){ start(); }, 500);
 
     var counter = 1;
     show(1);
 
     $('.arrow-up').click(function(){
         hideAll();
-        $('.arrow-up').hide();
-        releaseUp();
+        $('.arrow-up').css("transform", "scale(.5,.5)");
+        setTimeout(function() {releaseDown(); }, 150);
         counter--;
         if (counter < 1){
             counter = project_count;
@@ -50,12 +59,29 @@ $(document).ready((function() {
 
     $('.arrow-down').click(function(){
         hideAll();
-        $('.arrow-down').hide();
-        releaseDown();        counter++;
+        $('.arrow-down').css("transform", "scale(.5,.5)");
+        setTimeout(function() {releaseDown(); }, 150);
+        counter++;
         if (counter > project_count){
             counter = 1;
         }
         show(counter);
+    })
+
+    $('.arrow-down').hover(function() {
+        $('.arrow-down').css("transform", "scale(1.15,1.15)");
+    })
+
+    $('.arrow-down').mouseleave(function(){
+        $('.arrow-down').css("transform", "scale(1,1)");
+    })
+
+    $('.arrow-up').hover(function() {
+        $('.arrow-up').css("transform", "scale(1.15,1.15)");
+    })
+
+    $('.arrow-up').mouseleave(function(){
+        $('.arrow-up').css("transform", "scale(1,1)");
     })
 
 }));

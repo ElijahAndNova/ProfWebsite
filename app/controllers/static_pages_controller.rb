@@ -1,6 +1,9 @@
 class StaticPagesController < ApplicationController #The < sign indicates inheritance from ApplicationController
 
   def home
+    @pictures = Picture.all
+    @coming = Coming.all
+    @leaving = Leaving.all
   end
 
   def about_me
