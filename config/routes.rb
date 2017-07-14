@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   root 'static_pages#home'
 
-  get 'home', to: 'static_pages#home', as: 'home'
+  get 'home', to: 'static_pages#old_home', as: 'home'
 
   get 'about_me', to: 'static_pages#about_me', as: 'about_me'
 

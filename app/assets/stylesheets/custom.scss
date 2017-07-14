@@ -568,6 +568,19 @@ a {
   position: relative;
   bottom: 345px;
   left: 37%;
+  transform: scale(1.15,1.15);
+}
+
+.panel-custom1-old {
+  //margin: auto;
+  background: $purple-translucent;
+  border: 1px solid white;
+  color: white;
+  width: 342px;
+  height: 342px;
+  position: relative;
+  bottom: 45px;
+  left: 37%;
 }
 
 .panel-on-deck {
@@ -582,6 +595,7 @@ a {
   bottom: 22px;
   right: 55px;
   opacity: .1;
+  transform: scale(.6,.6);
 }
 
 .panel-just-batted {
@@ -596,6 +610,7 @@ a {
   opacity: .1;
   bottom: 710px;
   left: 72%;
+  transform: scale(.6,.6);
 }
 
 .panel-custom2 {

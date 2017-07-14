@@ -1,13 +1,13 @@
 $(document).ready((function() {
 
-    if(document.URL.indexOf("#")==-1){
-        // Set the URL to whatever it was plus "#".
-        url = document.URL+"#";
-        location = "#";
-
-        //Reload the page
-        location.reload(true);
-    }
+    // if(document.URL.indexOf("#")==-1){
+    //     // Set the URL to whatever it was plus "#".
+    //     url = document.URL+"#";
+    //     location = "#";
+    //
+    //     //Reload the page
+    //     location.reload(true);
+    // }
 
     var picture_count = 6;
 
@@ -99,6 +99,7 @@ $(document).ready((function() {
             $('.panel-custom1').css("width", "420");
             $('.panel-custom1').css("height", "310");
             $('.panel-custom1').css("margin-left", "-20px");
+            $('.panel-custom1').css("margin-top", "20px");
             $('.panel-just-batted').css("width", "420");
             $('.panel-just-batted').css("height", "310");
             $('.panel-just-batted').css("margin-top", "55px");
