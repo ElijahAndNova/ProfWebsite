@@ -33,7 +33,8 @@ ready for gameplay elements. Currently, the engine features include:
 <ul> <li> .obj file parsing (allowing the use of imported models, easily created in Blender) </li> <li> per-pixel and specular lighting
 provides real-time dynamic lighting on all entities and terrain (shadows to come!) </li>
 <li> vertex and fragment shading adds nuances to entity lighting</li>  <li> transparency and fog clips render distance smoothly
-</li> <li>terrain generation with external heightmap file input</li> <li>third person camera and player + gravity physics</li></ul>
+</li> <li>terrain generation with external heightmap file input</li> <li>third person camera and player + gravity physics</li>
+<li>skybox support</li></ul>
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp; Many more features to come!",
 
