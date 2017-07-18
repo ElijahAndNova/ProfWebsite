@@ -7,22 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Project.create(title: "3D Game Engine",
-
-               description: "&nbsp;&nbsp;&nbsp;&nbsp; A powerful work-in-progress 3D engine written from scratch in Java, using only OpenGL.
-I intend to eventually expand this project in to a multiplayer game, but many more foundations must be laid before it's
-ready for gameplay elements. Currently, the engine features include:
-<br> <br>
-<ul> <li> .obj file parsing (allowing the use of imported models, easily created in Blender) </li> <li> per-pixel and specular lighting
-provides real-time dynamic lighting on all entities and terrain (shadows to come!) </li>
-<li> vertex and fragment shading adds nuances to entity lighting</li>  <li> transparency and fog clips render distance smoothly
-</li> <li>terrain generation with external heightmap file input</li> <li>third person camera and player + gravity physics</li></ul>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp; Many more features to come!",
-
-               image_filepath: "comet.png")
-
-Project.create(title: "Money Moose",
+Project.create(title: "Artificial Intelligence Stock Picker",
 
                description: "&nbsp;&nbsp;&nbsp;&nbsp; I wrote this program to analyze patterns on the American stock market and predict which stocks
 will rise or fall in price the next day, using a machine learning technique called boosting.
@@ -39,7 +24,22 @@ for the following day. The more consecutive days the program runs, the more accu
 
                image_filepath: "moneymoose.jpg")
 
-Project.create(title: "SkyBit",
+Project.create(title: "3D Engine - Built From Scratch",
+
+               description: "&nbsp;&nbsp;&nbsp;&nbsp; A powerful work-in-progress 3D engine written from scratch in Java, using only OpenGL.
+I intend to eventually expand this project in to a multiplayer game, but many more foundations must be laid before it's
+ready for gameplay elements. Currently, the engine features include:
+<br> <br>
+<ul> <li> .obj file parsing (allowing the use of imported models, easily created in Blender) </li> <li> per-pixel and specular lighting
+provides real-time dynamic lighting on all entities and terrain (shadows to come!) </li>
+<li> vertex and fragment shading adds nuances to entity lighting</li>  <li> transparency and fog clips render distance smoothly
+</li> <li>terrain generation with external heightmap file input</li> <li>third person camera and player + gravity physics</li></ul>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; Many more features to come!",
+
+               image_filepath: "comet.png")
+
+Project.create(title: "SkyBit: 'Siri' for the Computer",
 
                description: "&nbsp;&nbsp;&nbsp;&nbsp; This program began as a computer companion, designed to run in the background
 until it was needed; a combination of keyboard key presses would bring the console to the forefront of the user's screen, where they could
@@ -57,7 +57,7 @@ ping your email, and more.",
 
                image_filepath: "skybit.png")
 
-Project.create(title: "PyKLIP Wrapper",
+Project.create(title: "Exoplanet Research PyKLIP Wrapper",
 
                description: "&nbsp;&nbsp;&nbsp;&nbsp; My primary field of research is in exoplanet direct imaging. One of the final steps in reducing data
 using this technique involves executing principal component analysis to sort out starlight from planetary light. To do this,
