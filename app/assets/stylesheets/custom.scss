@@ -270,6 +270,18 @@ h4 {
    //margin-left: 0%;
  }
 
+.p1{
+  opacity: 0;
+}
+
+.p2{
+  opacity: 0;
+}
+
+.p3{
+  opacity: 0;
+}
+
 .panel-awards {
   border: 1px solid white;
   opacity: 0;
@@ -520,6 +532,10 @@ a:hover{
   margin-top: 30px;
 }
 
+.title{
+  opacity: 0;
+}
+
 .panel-custom0 {
   background: $purple-translucent;
   color: white;
@@ -719,6 +735,7 @@ a:hover{
 }
 
 .pic_of_me_5 {
+  opacity: 0;
   width: 90%;
   margin-top: 20px;
   //margin-left: 100px;
