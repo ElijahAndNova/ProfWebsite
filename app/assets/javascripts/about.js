@@ -15,31 +15,31 @@ function fadeThemIn(){
 }
 
 function fadeInTitle(){
-    $('.title').stop().fadeTo(2000, 1);
+    $('.title').stop().fadeTo(1000, 1);
 }
 
 function fadeInPanel() {
-    $('.panel-about').stop().fadeTo(2000, 1);
+    $('.panel-about').stop().fadeTo(1000, 1);
 }
 
 function fadeInPanel2(){
-    $('.panel-about2').stop().fadeTo(2000, 1);
+    $('.panel-about2').stop().fadeTo(1000, 1);
 }
 
 function fadeInPic(){
-    $('.pic_of_me_5').stop().fadeTo(2000, 1);
+    $('.pic_of_me_5').stop().fadeTo(1000, 1);
 }
 
 function fadeInParagraph1(){
-    $('.p1').stop().fadeTo(2000, 1);
+    $('.p1').stop().fadeTo(1000, 1);
 }
 
 function fadeInParagraph2(){
-    $('.p2').stop().fadeTo(2000, 1);
+    $('.p2').stop().fadeTo(1000, 1);
 }
 
 function fadeInParagraph3(){
-    $('.p3').stop().fadeTo(2000, 1);
+    $('.p3').stop().fadeTo(1000, 1);
 }
 
 $(document).ready((function() {
