@@ -7,6 +7,22 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
+Project.create(title: "3D Engine - Built From Scratch",
+
+               description: "&nbsp;&nbsp;&nbsp;&nbsp; A powerful work-in-progress 3D engine written from scratch in Java, using only OpenGL.
+I intend to eventually expand this project in to a multiplayer game, but many more foundations must be laid before it's
+ready for gameplay elements. Currently, the engine features include:
+<br> <br>
+<ul> <li> .obj file parsing (allowing the use of imported models, easily created in Blender) </li> <li> per-pixel and specular lighting
+provides real-time dynamic lighting on all entities and terrain (shadows to come!) </li>
+<li> vertex and fragment shading adds nuances to entity lighting</li>  <li> transparency and fog clips render distance smoothly
+</li> <li>terrain generation with external heightmap file input</li> <li>third person camera and player + gravity physics</li>
+<li>skybox support</li></ul>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; Many more features to come!",
+
+               image_filepath: "comet.png")
+
 Project.create(title: "Artificial Intelligence Stock Picker",
 
                description: "&nbsp;&nbsp;&nbsp;&nbsp; I wrote this program to analyze patterns on the American stock market and predict which stocks
@@ -23,22 +39,6 @@ If the prediction for a given stock was incorrect, the program adjusts how heavi
 for the following day. The more consecutive days the program runs, the more accurate it will become.",
 
                image_filepath: "moneymoose.jpg")
-
-Project.create(title: "3D Engine - Built From Scratch",
-
-               description: "&nbsp;&nbsp;&nbsp;&nbsp; A powerful work-in-progress 3D engine written from scratch in Java, using only OpenGL.
-I intend to eventually expand this project in to a multiplayer game, but many more foundations must be laid before it's
-ready for gameplay elements. Currently, the engine features include:
-<br> <br>
-<ul> <li> .obj file parsing (allowing the use of imported models, easily created in Blender) </li> <li> per-pixel and specular lighting
-provides real-time dynamic lighting on all entities and terrain (shadows to come!) </li>
-<li> vertex and fragment shading adds nuances to entity lighting</li>  <li> transparency and fog clips render distance smoothly
-</li> <li>terrain generation with external heightmap file input</li> <li>third person camera and player + gravity physics</li>
-<li>skybox support</li></ul>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp; Many more features to come!",
-
-               image_filepath: "comet.png")
 
 Project.create(title: "SkyBit: 'Siri' for the Computer",
 
@@ -83,14 +83,30 @@ Picture.create(image_filepath: "me3.jpg", width:342, height:342)
 Picture.create(image_filepath: "me4.jpg", width:342, height:342)
 Picture.create(image_filepath: "new2.jpg", width:342, height:342)
 Picture.create(image_filepath: "new4.jpg", width:342, height:342)
+Picture.create(image_filepath: "new5.jpg", width:342, height:342)
+Picture.create(image_filepath: "new7.jpg", width:342, height:342)
+Picture.create(image_filepath: "new8.jpg", width:342, height:342)
+Picture.create(image_filepath: "new9.jpg", width:342, height:342)
+Picture.create(image_filepath: "new10.jpg", width:342, height:342)
+Picture.create(image_filepath: "new13.jpg", width:342, height:342)
+Picture.create(image_filepath: "new14.jpg", width:342, height:342)
 
 
-Coming.create(image_filepath: "new4.jpg")
+
+Coming.create(image_filepath: "new14.jpg")
 Coming.create(image_filepath: "me1.jpg")
 Coming.create(image_filepath: "me2.jpg")
 Coming.create(image_filepath: "me3.jpg")
 Coming.create(image_filepath: "me4.jpg")
 Coming.create(image_filepath: "new2.jpg")
+Coming.create(image_filepath: "new4.jpg")
+Coming.create(image_filepath: "new5.jpg")
+Coming.create(image_filepath: "new7.jpg")
+Coming.create(image_filepath: "new8.jpg")
+Coming.create(image_filepath: "new9.jpg")
+Coming.create(image_filepath: "new10.jpg")
+Coming.create(image_filepath: "new13.jpg")
+
 
 
 Leaving.create(image_filepath: "me2.jpg")
@@ -98,4 +114,11 @@ Leaving.create(image_filepath: "me3.jpg")
 Leaving.create(image_filepath: "me4.jpg")
 Leaving.create(image_filepath: "new2.jpg")
 Leaving.create(image_filepath: "new4.jpg")
+Leaving.create(image_filepath: "new5.jpg")
+Leaving.create(image_filepath: "new7.jpg")
+Leaving.create(image_filepath: "new8.jpg")
+Leaving.create(image_filepath: "new9.jpg")
+Leaving.create(image_filepath: "new10.jpg")
+Leaving.create(image_filepath: "new13.jpg")
+Leaving.create(image_filepath: "new14.jpg")
 Leaving.create(image_filepath: "me1.jpg")
