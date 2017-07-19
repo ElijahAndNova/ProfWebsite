@@ -4,6 +4,8 @@
 //$purple-translucent: rgba(140,2,133,.6);
 //$purple-opaque: rgba(140,2,133, .8);
 
+$purple-clear: rgba(0,0,150,.2);
+$purple-clear2: rgba(0,0,150,.5);
 $purple-translucent: rgba(0,0,150,.6);
 $purple-opaque: rgba(0,0,150,.7);
 
@@ -282,6 +284,64 @@ h4 {
   opacity: 0;
 }
 
+.panel-get-in-touch{
+   width: 1000px;
+   height: 600px;
+   background: $purple-clear;
+   border: 1px solid white;
+   margin: auto;
+   opacity: 0;
+ }
+
+.panel-resume0{
+  width: 800px;
+  height: 400px;
+  background: $purple-clear;
+  border: 1px solid white;
+  margin: auto;
+  opacity: 0;
+}
+
+.panel-get-in-touch2{
+  position: relative;
+  top: 35px;
+  width: 400px;
+  height: 160px;
+  background: $purple-clear2;
+  border: 1px solid darkgoldenrod;
+  margin: auto;
+  opacity: 0;
+}
+
+.panel-get-in-touch3{
+  position: relative;
+  top: 65px;
+  width: 800px;
+  height: 340px;
+  background: $purple-clear2;
+  border: 1px solid darkgoldenrod;
+  margin: auto;
+  opacity: 0;
+}
+
+.para1{
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.get-in-touch-title{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+.get-in-touch-title2{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
 .panel-awards {
   border: 1px solid white;
   opacity: 0;
@@ -483,17 +543,18 @@ a:hover{
 }
 
 .panel-resume1 {
-  border: 1px solid white;
+  border: 1px solid darkgoldenrod;
   opacity: 0;
   display: hidden !important;
-  background: $purple-translucent;
+  background: $purple-clear2;
   position: relative;
   text-align: center;
   line-height: 20px;
   color: white;
   width: 600px;
   height: 200px;
-  margin-left: 250px;
+  margin: auto;
+  top: 100px;
 }
 
 .pub-text {
@@ -502,25 +563,40 @@ a:hover{
   line-height: 25px;
 }
 
-.panel-publications1 {
+.panel-publications0 {
   border: 1px solid white;
   opacity: 0;
   display: hidden !important;
-  background: $purple-opaque;
+  background: $purple-clear;
+  position: relative;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  width: 800px;
+  height: 450px;
+  margin: auto;
+}
+
+.panel-publications1 {
+  border: 1px solid darkgoldenrod;
+  opacity: 0;
+  display: hidden !important;
+  background: $purple-clear2;
   position: relative;
   text-align: center;
   line-height: 20px;
   color: white;
   width: 600px;
   height: 200px;
-  margin-left: 225px;
+  margin: auto;
+  top: 50px;
 }
 
 .panel-publications2 {
-  border: 1px solid white;
+  border: 1px solid darkgoldenrod;
   opacity: 0;
   display: hidden !important;
-  background: $purple-opaque;
+  background: $purple-clear2;
   position: relative;
   text-align: center;
   line-height: 20px;
@@ -528,8 +604,7 @@ a:hover{
   width: 600px;
   height: 100px;
   margin: auto;
-  //margin-left: 225px;
-  margin-top: 30px;
+  top: 40px;
 }
 
 .title{
