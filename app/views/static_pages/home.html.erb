@@ -19,11 +19,13 @@
 
     <div class="pics">
 
-      <% @coming.each_with_index do |comes, i| %>
-          <div class="panel-on-deck" id="num1_<%=i+1%>">
-            <%= image_tag(comes.image_filepath) %>
-          </div>
-      <% end %>
+      <div class="pics-secondary">
+        <% @coming.each_with_index do |comes, i| %>
+            <div class="panel-on-deck" id="num1_<%=i+1%>">
+              <%= image_tag(comes.image_filepath) %>
+            </div>
+        <% end %>
+      </div>
 
 
       <% @pictures.each_with_index do |picture, i| %>
@@ -35,11 +37,13 @@
       <% end %>
 
 
-      <% @leaving.each_with_index do |leaves, i| %>
-          <div class="panel-just-batted" id="num3_<%=i+1%>">
-            <%= image_tag(leaves.image_filepath) %>
-          </div>
-      <% end %>
+      <div class="pics-secondary">
+        <% @leaving.each_with_index do |leaves, i| %>
+            <div class="panel-just-batted" id="num3_<%=i+1%>">
+              <%= image_tag(leaves.image_filepath) %>
+            </div>
+        <% end %>
+      </div>
 
     </div>
 
