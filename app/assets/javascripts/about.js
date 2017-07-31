@@ -45,7 +45,7 @@ function fadeInParagraph3(){
 $(document).ready((function() {
 
     var screenHeight = window.innerHeight;
-    $('.about-panels').css("margin-top", ((screenHeight-300)/2-250));
+    $('.about-panels').css("margin-top", ((screenHeight-300)/2-270));
 
     fadeThemIn();
 

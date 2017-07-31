@@ -13,7 +13,7 @@ $(document).ready((function() {
 
     var screenHeight = window.innerHeight;
 
-    $('.pics').css("margin-top", ((screenHeight - 300) / 2 - 210));
+    $('.pics').css("margin-top", ((screenHeight - 300) / 2 - 180));
 
     $('.ultimate').fadeIn(500);
 

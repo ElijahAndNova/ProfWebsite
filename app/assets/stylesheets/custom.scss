@@ -85,35 +85,35 @@ h7 {
   margin: auto;
 }
 
-@media (max-width: 800px){
-  .navbar-icons{
-    //transform: scale(1.3,1.3);
-  }
-  .pics-secondary{
-    display: none;
-  }
-  .pics{
-    transform: scale(.7,.7);
-    position: relative;
-    left: -20px;
-  }
-  .pedigrees{
-    display: none;
-  }
-  .panel-custom1{
-    display: block;
-    position: relative;
-    top: -30px;
-    margin-left: -20px;
-    text-align: center;
-  }
-}
+//@media (max-width: 800px){
+//  .navbar-icons{
+//    //transform: scale(1.3,1.3);
+//  }
+//  .pics-secondary{
+//    display: none;
+//  }
+//  .pics{
+//    transform: scale(.7,.7);
+//    position: relative;
+//    left: -20px;
+//  }
+//  .pedigrees{
+//    display: none;
+//  }
+//  .panel-custom1{
+//    display: block;
+//    position: relative;
+//    top: -30px;
+//    margin-left: -20px;
+//    text-align: center;
+//  }
+//}
 
 .navbar{
   //background-color: #8c0285;
   border-bottom: 1px solid $purple-translucent;
   background: $purple-translucent;
-  height: 60px;
+  height: 30px;
   ul {
     color: white;
     position: relative;
@@ -158,6 +158,7 @@ h4 {
   text-align: left;
   line-height: 20px;
   color: white;
+  margin: auto;
   img {
     width: 85%;
     margin-left: 30px !important;
@@ -186,29 +187,41 @@ h4 {
   background-color: rgba(0,0,0,1);
   border: white solid 1px;
   margin-top: 2px;
+  height: 50px;
 }
 
 .facebook_icon{
   transition: .25s;
+  transform: scale(.8,.8);
+  position: relative;
+  bottom: 10px;
   &:hover{
     //opacity: .7;
-    transform: scale(1.15,1.15);
+    transform: scale(.9,.9);
   }
 }
 
 .github_icon{
   transition: .25s;
+  transform: scale(.8,.8);
+  position: relative;
+  right: 10px;
+  bottom: 10px;
   &:hover{
     //opacity: .7;
-    transform: scale(1.15,1.15);
+    transform: scale(.9,.9);
   }
 }
 
 .NASA_icon{
   transition: .25s;
+  transform: scale(.8,.8);
+  position: relative;
+  bottom: 10px;
+  right: 20px;
   &:hover{
     //opacity: .7;
-    transform: scale(1.15,1.15);
+    transform: scale(.9,.9);
   }
 }
 
@@ -299,9 +312,9 @@ h4 {
    color: white;
    width: 400px;
    height: 600px;
-   //margin: auto;
+   margin: auto;
    margin-top: 10%;
-   left: 10px;
+   left: -375px;
    //margin-left: 0%;
  }
 
@@ -450,6 +463,10 @@ h4 {
   //image-orientation: 90deg;
 }
 
+//.research-panels{
+//  margin: auto;
+//}
+
 .panel-research {
   padding: 10px;
   border: 1px solid white;
@@ -462,10 +479,11 @@ h4 {
   color: white;
   width: 408px;
   height: 540px;
+  margin: auto;
   //bottom: 600px;
   //left: 460px;
   top: 20px;
-  right: 100px;
+  right: 445px;
 }
 
 .panel-research2 {
@@ -481,8 +499,9 @@ h4 {
   width: 450px;
   height: 290px;
   bottom: 545px;
-  left: 325px;
+  //left: 325px;
   font-size: 14px;
+  margin: auto;
 }
 
 a {
@@ -510,9 +529,10 @@ a:hover{
   line-height: 25px;
   color: white;
   width: 450px;
+  margin: auto;
   height: 300px;
   bottom: 530px;
-  left: 325px;
+  //left: 325px;
   font-size: 14px;
 }
 
@@ -521,6 +541,7 @@ a:hover{
   border: 1px solid white;
   opacity: 0;
   display: fhidden !important;
+  margin: auto;
   background: $purple-translucent;
   position: relative;
   text-align: center;
@@ -529,7 +550,7 @@ a:hover{
   width: 408px;
   height: 600px;
   bottom: 1130px;
-  left: 790px;
+  left: 445px;
   font-size: 16px;
 }
 
@@ -542,11 +563,12 @@ a:hover{
   position: relative;
   text-align: center;
   line-height: 28px;
+  margin: auto;
   color: white;
   width: 700px;
   height: 600px;
   bottom: 600px;
-  left: 460px;
+  left: 235px;
   font-size: 16px;
   .non-center {
     text-align: left;
@@ -723,7 +745,7 @@ a:hover{
   height: 314px;
   position: relative;
   bottom: 22px;
-  right: 55px;
+  right: -100px;
   opacity: .1;
   transform: scale(.6,.6);
 }
@@ -739,7 +761,8 @@ a:hover{
   position: relative;
   opacity: .1;
   bottom: 710px;
-  left: 72%;
+  left: 63%;
+  //left: 72%;
   transform: scale(.6,.6);
 }
 
@@ -944,4 +967,8 @@ p {
 #logo:hover {
   color: #fff;
   text-decoration: none;
+}
+
+.container{
+
 }
