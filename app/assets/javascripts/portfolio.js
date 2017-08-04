@@ -32,7 +32,7 @@ function releaseUp() {
     $('.arrow-up').fadeIn(500);
 }
 
-var project_count = 4;
+var project_count = 5;
 
 $(document).ready((function() {
 
