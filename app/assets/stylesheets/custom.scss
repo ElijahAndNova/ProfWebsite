@@ -997,6 +997,8 @@ p {
   opacity: 0;
   left: 462px;
   top: 10px;
+  transition: .25s;
+
 }
 .hex2{
   opacity: 0;
@@ -1101,6 +1103,7 @@ p {
   height: 115.47px;
   margin: 57.74px 0;
   background-image: asset_url("me1.jpg");
+  transition: .25s;
   background-size: auto 230.9401px;
   background-position: center;
   box-shadow: 0 0 20px rgba(0,0,0,0.6);
