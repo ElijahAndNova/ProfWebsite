@@ -2,7 +2,7 @@ $(document).ready((function() {
 
     var screenWidth = window.innerWidth;
     var screenHeight = window.innerHeight;
-    // $('.hexpic').css("margin-left", ((screenWidth - 300) / 2+35-250));
+    $('.global').css("margin-left", ((screenWidth - 300) / 2+35-600));
     $('.global').css("margin-top", ((screenHeight - 300) / 2+120));
     // $('.hexpic').css("margin-top", ((screenHeight - 300) / 2+120));
     // $('.hexagon').css("margin-left", ((screenWidth - 300) / 2+142-250));
