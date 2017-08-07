@@ -91,18 +91,10 @@ h7 {
 
 @media (max-width: 600px){
   .global{
-    //transform: scale(0.1,0.1);
-    //bottom: 700px;
-    //right: 50px;
-  }
-  .global{
     display: none;
   }
   .mobile{
     display: block;
-    .hexpic{
-
-    }
   }
   .navbar{
     display: none;
@@ -1129,114 +1121,117 @@ p {
     background-size: auto 230.9401px;
     background-position: center;
     box-shadow: 0 0 20px rgba(0,0,0,0.6);
-    transform: scale(.6,.6);
-    bottom: 45px;
+    transform: scale(.5,.5);
+    bottom: 55px;
     right: 30px;
   }
 
   .hex1 {
     opacity: 1;
     transition: .25s;
-    transform: scale(.6,.6);
-    bottom: 110px;
-    left: 34px;
+    transform: scale(.5,.5);
+    bottom: 228px;
+    left: 76px;
 
   }
   .hex2 {
     opacity: 1;
     transition: .25s;
-    transform: scale(.6,.6);
+    transform: scale(.5,.5);
     &:hover {
-      transform: scale(.66, .66);
+      transform: scale(.56, .56);
       .text {
         transition: .25s;
         color: darkgoldenrod;
       }
     }
-    bottom: 173px;
-    left: 97px;
+    bottom: 309px;
+    left: 22px;
   }
   .hex3 {
     opacity: 1;
     transition: .25s;
-    transform: scale(.6,.6);
+    transform: scale(.5,.5);
     &:hover {
-      transform: scale(.66, .66);
+      transform: scale(.56, .56);
       .text {
         transition: .25s;
         color: darkgoldenrod;
       }
     }
-    bottom: 235px;
-    left: 33px;
+    bottom: 483px;
+    left: 130px;
   }
   .hex4 {
     opacity: 1;
     transition: .25s;
-    transform: scale(0.6,0.6);
+    transform: scale(0.5,0.5);
     &:hover {
-      transform: scale(0.66, 0.66);
+      transform: scale(0.56, 0.56);
       .text {
         transition: .25s;
         color: darkgoldenrod;
       }
     }
-    bottom: 407px;
-    left: 161px;
+    bottom: 563px;
+    left: 77px;
   }
   .hex5 {
     opacity: 1;
     transition: .25s;
-    transform: scale(0.6,0.6);
+    transform: scale(0.5,0.5);
     &:hover {
-      transform: scale(0.66, 0.66);
+      transform: scale(0.56, 0.56);
       .text {
         transition: .25s;
         color: darkgoldenrod;
       }
     }
-    bottom: 468px;
-    left: 95px;
+    bottom: 736px;
+    left: 184px;
   }
   .hex6 {
     opacity: 1;
-    transform: scale(0.6,0.6);
+    transform: scale(0.5,0.5);
     transition: .25s;
     &:hover {
-      transform: scale(0.66, 0.66);
+      transform: scale(0.56, 0.56);
       .text {
         transition: .25s;
         color: darkgoldenrod;
       }
     }
-    bottom: 235px;
-    left: 35px;
+    bottom: 910px;
+    right: 30px;
   }
   .hex7 {
     opacity: 1;
-    bottom: 1028px;
-    left: 893px;
     transition: .25s;
+    transform: scale(0.5,0.5);
+    bottom: 990px;
+    left: 23px;
     &:hover {
-      transform: scale(1.06, 1.06);
+      transform: scale(.56, .56);
     }
   }
   .hex8 {
     opacity: 1;
-    bottom: 1384px;
-    left: 1000px;
     transition: .25s;
+    transform: scale(0.5,0.5);
+    bottom: 1164px;
+    left: 131px;
     &:hover {
-      transform: scale(1.06, 1.06);
+      transform: scale(.56, .56);
     }
   }
   .hex9 {
     opacity: 1;
-    bottom: 1740px;
-    left: 893px;
     transition: .25s;
+    transform: scale(0.5,0.5);
+    bottom: 1245px;
+    left: 77px;
     &:hover {
-      transform: scale(1.06, 1.06);
+      transform: scale(.56, .56);
     }
   }
   .hex10 {
