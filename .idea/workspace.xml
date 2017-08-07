@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8e3cdf93-cae2-43c7-b6d6-2ab9f6d21084" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/home2.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/home2.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -22,8 +23,8 @@
       <file leaf-file-name="home2.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/home2.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="77" column="1" lean-forward="false" selection-start-line="77" selection-start-column="1" selection-end-line="81" selection-end-column="15" />
+            <state relative-caret-position="624">
+              <caret line="89" column="19" lean-forward="true" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -62,8 +63,8 @@
       <file leaf-file-name="custom.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="96" column="3" lean-forward="true" selection-start-line="96" selection-start-column="3" selection-end-line="96" selection-end-column="3" />
+            <state relative-caret-position="245">
+              <caret line="1122" column="13" lean-forward="false" selection-start-line="1122" selection-start-column="13" selection-end-line="1122" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -110,7 +111,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>navbar-bu</find>
       <find>navbar-but</find>
       <find>navbar-button</find>
       <find>nav</find>
@@ -140,6 +140,7 @@
       <find>header</find>
       <find>navbar</find>
       <find>@media</find>
+      <find>media</find>
     </findStrings>
     <replaceStrings>
       <replace>pic1</replace>
@@ -202,10 +203,10 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/home3.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/portfolio.js" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/app/views/static_pages/home2.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/home2.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/home2.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
       </list>
     </option>
@@ -1028,12 +1029,12 @@
       <workItem from="1497975223701" duration="14389000" />
       <workItem from="1498584849738" duration="101735000" />
       <workItem from="1500918763035" duration="7274000" />
-      <workItem from="1501648249769" duration="19626000" />
+      <workItem from="1501648249769" duration="20401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182207000" />
+    <option name="totallyTimeSpent" value="182982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1460,16 +1461,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/home2.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" column="1" lean-forward="false" selection-start-line="77" selection-start-column="1" selection-end-line="81" selection-end-column="15" />
+        <state relative-caret-position="624">
+          <caret line="89" column="19" lean-forward="true" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="96" column="3" lean-forward="true" selection-start-line="96" selection-start-column="3" selection-end-line="96" selection-end-column="3" />
+        <state relative-caret-position="245">
+          <caret line="1122" column="13" lean-forward="false" selection-start-line="1122" selection-start-column="13" selection-end-line="1122" selection-end-column="13" />
           <folding />
         </state>
       </provider>

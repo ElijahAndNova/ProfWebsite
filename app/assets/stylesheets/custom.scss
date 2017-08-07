@@ -95,6 +95,12 @@ h7 {
     //bottom: 700px;
     //right: 50px;
   }
+  .global{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
   .navbar{
     display: none;
   }
@@ -974,136 +980,278 @@ p {
   text-decoration: none;
 }
 
-.global{
+.global {
   position: relative;
   margin: auto;
   //text-align: center;
+
+  .hexpic {
+    opacity: 0;
+    position: relative;
+    left: 355px;
+    width: 200px;
+    height: 115.47px;
+    margin: 57.74px 0;
+    background-image: asset_url("me1.jpg");
+    transition: .25s;
+    background-size: auto 230.9401px;
+    background-position: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  }
+
+  .hex1 {
+    opacity: 0;
+    left: 462px;
+    top: 10px;
+    transition: .25s;
+
+  }
+  .hex2 {
+    opacity: 0;
+    bottom: 163px;
+    left: 249px;
+    transition: .25s;
+    &:hover {
+      transform: scale(1.06, 1.06);
+      .text {
+        transition: .25s;
+        color: darkgoldenrod;
+      }
+    }
+  }
+  .hex3 {
+    opacity: 0;
+    bottom: 520px;
+    left: 143px;
+    transition: .25s;
+    &:hover {
+      transform: scale(1.06, 1.06);
+      .text {
+        transition: .25s;
+        color: darkgoldenrod;
+      }
+    }
+  }
+  .hex4 {
+    opacity: 0;
+    bottom: 878px;
+    left: 249px;
+    transition: .25s;
+    &:hover {
+      transform: scale(1.06, 1.06);
+      .text {
+        transition: .25s;
+        color: darkgoldenrod;
+      }
+    }
+  }
+  .hex5 {
+    opacity: 0;
+    bottom: 1052px;
+    left: 462px;
+    transition: .25s;
+    &:hover {
+      transform: scale(1.06, 1.06);
+      .text {
+        transition: .25s;
+        color: darkgoldenrod;
+      }
+    }
+  }
+  .hex6 {
+    opacity: 0;
+    bottom: 1039px;
+    left: 567px;
+    transition: .25s;
+    &:hover {
+      transform: scale(1.06, 1.06);
+      .text {
+        transition: .25s;
+        color: darkgoldenrod;
+      }
+    }
+  }
+  .hex7 {
+    opacity: 0;
+    bottom: 1028px;
+    left: 893px;
+    transition: .25s;
+    &:hover {
+      transform: scale(1.06, 1.06);
+    }
+  }
+  .hex8 {
+    opacity: 0;
+    bottom: 1384px;
+    left: 1000px;
+    transition: .25s;
+    &:hover {
+      transform: scale(1.06, 1.06);
+    }
+  }
+  .hex9 {
+    opacity: 0;
+    bottom: 1740px;
+    left: 893px;
+    transition: .25s;
+    &:hover {
+      transform: scale(1.06, 1.06);
+    }
+  }
+  .hex10 {
+    opacity: 0;
+    bottom: 1730px;
+    left: 788px;
+    transition: .25s;
+    &:hover {
+      transform: scale(1.06, 1.06);
+    }
+  }
 }
 
-.hex1{
-  opacity: 0;
-  left: 462px;
-  top: 10px;
-  transition: .25s;
+.mobile {
+  position: relative;
+  margin: auto;
 
-}
-.hex2{
-  opacity: 0;
-  bottom: 163px;
-  left: 249px;
-  transition: .25s;
-  &:hover{
-    transform: scale(1.06,1.06);
-    .text{
-      transition: .25s;
-      color: darkgoldenrod;
+  .hexpic {
+    opacity: 1;
+    position: relative;
+    //left: 355px;
+    width: 200px;
+    height: 115.47px;
+    margin: 57.74px 0;
+    background-image: asset_url("me1.jpg");
+    transition: .25s;
+    background-size: auto 230.9401px;
+    background-position: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  }
+
+  .hex1 {
+    opacity: 1;
+    left: 462px;
+    top: 10px;
+    transition: .25s;
+
+  }
+  .hex2 {
+    opacity: 1;
+    bottom: 163px;
+    left: 249px;
+    transition: .25s;
+    &:hover {
+      transform: scale(1.06, 1.06);
+      .text {
+        transition: .25s;
+        color: darkgoldenrod;
+      }
     }
   }
-}
-.hex3{
-  opacity: 0;
-  bottom: 520px;
-  left: 143px;
-  transition: .25s;
-  &:hover{
-    transform: scale(1.06,1.06);
-    .text{
-      transition: .25s;
-      color: darkgoldenrod;
+  .hex3 {
+    opacity: 1;
+    bottom: 520px;
+    left: 143px;
+    transition: .25s;
+    &:hover {
+      transform: scale(1.06, 1.06);
+      .text {
+        transition: .25s;
+        color: darkgoldenrod;
+      }
     }
   }
-}
-.hex4{
-  opacity: 0;
-  bottom: 878px;
-  left: 249px;
-  transition: .25s;
-  &:hover{
-    transform: scale(1.06,1.06);
-    .text{
-      transition: .25s;
-      color: darkgoldenrod;
+  .hex4 {
+    opacity: 1;
+    bottom: 878px;
+    left: 249px;
+    transition: .25s;
+    &:hover {
+      transform: scale(1.06, 1.06);
+      .text {
+        transition: .25s;
+        color: darkgoldenrod;
+      }
     }
   }
-}
-.hex5{
-  opacity: 0;
-  bottom: 1052px;
-  left: 462px;
-  transition: .25s;
-  &:hover{
-    transform: scale(1.06,1.06);
-    .text{
-      transition: .25s;
-      color: darkgoldenrod;
+  .hex5 {
+    opacity: 1;
+    bottom: 1052px;
+    left: 462px;
+    transition: .25s;
+    &:hover {
+      transform: scale(1.06, 1.06);
+      .text {
+        transition: .25s;
+        color: darkgoldenrod;
+      }
     }
   }
-}
-.hex6{
-  opacity: 0;
-  bottom: 1039px;
-  left: 567px;
-  transition: .25s;
-  &:hover{
-    transform: scale(1.06,1.06);
-    .text{
-      transition: .25s;
-      color: darkgoldenrod;
+  .hex6 {
+    opacity: 1;
+    bottom: 1039px;
+    left: 567px;
+    transition: .25s;
+    &:hover {
+      transform: scale(1.06, 1.06);
+      .text {
+        transition: .25s;
+        color: darkgoldenrod;
+      }
     }
   }
-}
-.hex7{
-  opacity: 0;
-  bottom: 1028px;
-  left: 893px;
-  transition: .25s;
-  &:hover {
-    transform: scale(1.06, 1.06);
+  .hex7 {
+    opacity: 1;
+    bottom: 1028px;
+    left: 893px;
+    transition: .25s;
+    &:hover {
+      transform: scale(1.06, 1.06);
+    }
   }
-}
-.hex8{
-  opacity: 0;
-  bottom: 1384px;
-  left: 1000px;
-  transition: .25s;
-  &:hover{
-    transform: scale(1.06,1.06);
+  .hex8 {
+    opacity: 1;
+    bottom: 1384px;
+    left: 1000px;
+    transition: .25s;
+    &:hover {
+      transform: scale(1.06, 1.06);
+    }
   }
-}
-.hex9{
-  opacity: 0;
-  bottom: 1740px;
-  left: 893px;
-  transition: .25s;
-  &:hover{
-    transform: scale(1.06,1.06);
+  .hex9 {
+    opacity: 1;
+    bottom: 1740px;
+    left: 893px;
+    transition: .25s;
+    &:hover {
+      transform: scale(1.06, 1.06);
+    }
   }
-}
-.hex10{
-  opacity: 0;
-  bottom: 1730px;
-  left: 788px;
-  transition: .25s;
-  &:hover{
-    transform: scale(1.06,1.06);
+  .hex10 {
+    opacity: 1;
+    bottom: 1730px;
+    left: 788px;
+    transition: .25s;
+    &:hover {
+      transform: scale(1.06, 1.06);
+    }
   }
 }
 
 //////////////////////////////////////////////////////////////
 
-.hexpic {
-  opacity: 0;
-  position: relative;
-  left: 355px;
-  width: 200px;
-  height: 115.47px;
-  margin: 57.74px 0;
-  background-image: asset_url("me1.jpg");
-  transition: .25s;
-  background-size: auto 230.9401px;
-  background-position: center;
-  box-shadow: 0 0 20px rgba(0,0,0,0.6);
-}
+//.hexpic {
+//  opacity: 0;
+//  position: relative;
+//  left: 355px;
+//  width: 200px;
+//  height: 115.47px;
+//  margin: 57.74px 0;
+//  background-image: asset_url("me1.jpg");
+//  transition: .25s;
+//  background-size: auto 230.9401px;
+//  background-position: center;
+//  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+//}
 
 .hexTop,
 .hexBottom {
