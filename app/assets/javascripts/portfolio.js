@@ -95,8 +95,16 @@ $(document).ready((function() {
 
     if ( $('.global').css('display') == 'none' ){
         // alert("Mobile version");
-        $('.proj1').css("left", 17);
+        $('.proj1').css("left", 18);
         $('.proj1').css("width", screenWidth-50);
+        $('.proj2').css("left", 18);
+        $('.proj2').css("width", screenWidth-50);
+        $('.proj3').css("left", 18);
+        $('.proj3').css("width", screenWidth-50);
+        $('.proj4').css("left", 18);
+        $('.proj4').css("width", screenWidth-50);
+        $('.proj5').css("left", 18);
+        $('.proj5').css("width", screenWidth-50);
     }
 }));
 

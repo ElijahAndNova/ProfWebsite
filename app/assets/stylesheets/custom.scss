@@ -1737,16 +1737,18 @@ p {
   position: relative;
   left: 17px;
   border-radius: 8px;
+  margin-bottom: 10px;
 }
 
 .proj_title{
   color: white;
   text-align: center;
   font-size: 30px;
+  margin-bottom: 10px;
 }
 
 .proj_description{
-  color: white;
+  color: rgb(200,200,200);
   margin: 15px;
   text-align: left;
   font-size: 12px;
@@ -1755,10 +1757,54 @@ p {
 .proj1{
   position: relative;
   margin-top: 30px;
-  top: 50px;
+  top: 60px;
   opacity: 1;
   border: 1px solid white;
   background: $purple-opaque;
   width: 350px;
-  height: 775px;
+  height: 785px;
+}
+
+.proj2{
+  position: relative;
+  margin-top: 30px;
+  top: 60px;
+  opacity: 1;
+  border: 1px solid white;
+  background: $purple-opaque;
+  width: 350px;
+  height: 850px;
+}
+
+.proj3{
+  position: relative;
+  margin-top: 30px;
+  top: 60px;
+  opacity: 1;
+  border: 1px solid white;
+  background: $purple-opaque;
+  width: 350px;
+  height: 875px;
+}
+
+.proj4{
+  position: relative;
+  margin-top: 30px;
+  top: 60px;
+  opacity: 1;
+  border: 1px solid white;
+  background: $purple-opaque;
+  width: 350px;
+  height: 850px;
+}
+
+.proj5{
+  position: relative;
+  margin-top: 30px;
+  top: 60px;
+  opacity: 1;
+  border: 1px solid white;
+  background: $purple-opaque;
+  width: 350px;
+  height: 850px;
 }
