@@ -46,7 +46,14 @@ function fadeInParagraph3(){
 $(document).ready((function() {
 
     var screenHeight = window.innerHeight;
+    var screenWidth = window.innerWidth;
     $('.about-panels').css("margin-top", ((screenHeight-300)/2-270));
+
+    if ( $('.global').css('display') == 'none' ){
+        // alert("Mobile version");
+        $('.panel-about2').css("right", 10);
+        $('.panel-about2').css("width", screenWidth+50);
+    }
 
     fadeThemIn();
 
