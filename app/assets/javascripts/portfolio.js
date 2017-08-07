@@ -45,6 +45,7 @@ var project_count = 5;
 $(document).ready((function() {
 
     var screenHeight = window.innerHeight;
+    var screenWidth = window.innerWidth;
     $('.portfolio-panels').css("margin-top", ((screenHeight-300)/2-210));
 
     fadeMoreIn();
@@ -92,9 +93,10 @@ $(document).ready((function() {
         $('.arrow-up').css("transform", "scale(1,1)");
     })
 
-    if ( $('.global').css('display') == 'none' ) {
-        showAllForMobile();
+    if ( $('.global').css('display') == 'none' ){
+        // alert("Mobile version");
+        $('.proj1').css("left", 17);
+        $('.proj1').css("width", screenWidth-50);
     }
-
 }));
 
