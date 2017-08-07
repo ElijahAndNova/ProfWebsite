@@ -51,6 +51,9 @@ $(document).ready((function() {
 
     if ( $('.global').css('display') == 'none' ){
         // alert("Mobile version");
+        $('.panel-about').css("right", 17);
+        $('.panel-about').css("width", screenWidth+50);
+        $('.panel-about').css("height", (screenWidth+50)*1.5);
         $('.panel-about2').css("right", 17);
         $('.panel-about2').css("width", screenWidth+50);
     }

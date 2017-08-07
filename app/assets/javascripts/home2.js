@@ -19,15 +19,9 @@ $(document).ready((function() {
     setTimeout(function() { $('.hex8').fadeTo(500, 1); }, 2000);
     setTimeout(function() { $('.hex9').fadeTo(500, 1); }, 2250);
 
-    // $('html').click(function() {
-    //     if ( $('.global').css('display') == 'none' ){
-    //         // alert("Mobile version");
-    //         $('.global').children().preventDefault();
-    //     }
-    //     else {
-    //         // alert("Desktop version");
-    //         $('.mobile').children().preventDefault();
-    //     }
-    // });
+    if ( $('.global').css('display') == 'none' ){
+        // alert("Mobile version");
+        // $('.mobile').css("left", (screenWidth/2)+50;
+    }
 
 }));
