@@ -89,9 +89,13 @@ h7 {
   margin: auto;
 }
 
-@media (max-width: 800px){
+@media (max-width: 600px){
   .global{
     transform: scale(0.7,0.7);
+    bottom: 300px;
+  }
+  .navbar{
+    display: none;
   }
 }
 
