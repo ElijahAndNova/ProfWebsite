@@ -51,8 +51,8 @@ $(document).ready((function() {
 
     if ( $('.global').css('display') == 'none' ){
         // alert("Mobile version");
-        // $('.panel-about2').css("right", 10);
-        // $('.panel-about2').css("width", screenWidth+50);
+        $('.panel-about2').css("right", 17);
+        $('.panel-about2').css("width", screenWidth+50);
     }
 
     fadeThemIn();
