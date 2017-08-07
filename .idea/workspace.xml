@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e3cdf93-cae2-43c7-b6d6-2ab9f6d21084" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -62,8 +63,8 @@
       <file leaf-file-name="custom.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="93" column="28" lean-forward="false" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
+            <state relative-caret-position="301">
+              <caret line="95" column="16" lean-forward="false" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -1028,12 +1029,12 @@
       <workItem from="1497975223701" duration="14389000" />
       <workItem from="1498584849738" duration="101735000" />
       <workItem from="1500918763035" duration="7274000" />
-      <workItem from="1501648249769" duration="19325000" />
+      <workItem from="1501648249769" duration="19499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181906000" />
+    <option name="totallyTimeSpent" value="182080000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1468,8 +1469,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="93" column="28" lean-forward="false" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
+        <state relative-caret-position="301">
+          <caret line="95" column="16" lean-forward="false" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
           <folding />
         </state>
       </provider>
