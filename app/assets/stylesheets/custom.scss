@@ -1144,68 +1144,73 @@ p {
   }
   .hex2 {
     opacity: 1;
-    bottom: 163px;
-    left: 249px;
     transition: .25s;
+    transform: scale(.6,.6);
     &:hover {
-      transform: scale(1.06, 1.06);
+      transform: scale(.66, .66);
       .text {
         transition: .25s;
         color: darkgoldenrod;
       }
     }
+    bottom: 173px;
+    left: 97px;
   }
   .hex3 {
     opacity: 1;
-    bottom: 520px;
-    left: 143px;
     transition: .25s;
+    transform: scale(.6,.6);
     &:hover {
-      transform: scale(1.06, 1.06);
+      transform: scale(.66, .66);
       .text {
         transition: .25s;
         color: darkgoldenrod;
       }
     }
+    bottom: 235px;
+    left: 33px;
   }
   .hex4 {
     opacity: 1;
-    bottom: 878px;
-    left: 249px;
     transition: .25s;
+    transform: scale(0.6,0.6);
     &:hover {
-      transform: scale(1.06, 1.06);
+      transform: scale(0.66, 0.66);
       .text {
         transition: .25s;
         color: darkgoldenrod;
       }
     }
+    bottom: 407px;
+    left: 161px;
   }
   .hex5 {
     opacity: 1;
-    bottom: 1052px;
-    left: 462px;
     transition: .25s;
+    transform: scale(0.6,0.6);
     &:hover {
-      transform: scale(1.06, 1.06);
+      transform: scale(0.66, 0.66);
       .text {
         transition: .25s;
         color: darkgoldenrod;
       }
     }
+    bottom: 468px;
+    left: 95px;
   }
   .hex6 {
     opacity: 1;
-    bottom: 1039px;
-    left: 567px;
+    transform: scale(0.6,0.6);
     transition: .25s;
     &:hover {
-      transform: scale(1.06, 1.06);
+      transform: scale(0.66, 0.66);
       .text {
         transition: .25s;
         color: darkgoldenrod;
       }
     }
+    bottom: 235px;
+    left: 35px;
   }
   .hex7 {
     opacity: 1;
