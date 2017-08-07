@@ -1107,9 +1107,9 @@ p {
 .mobile {
   position: relative;
   margin: auto;
-
+  top: 20px;
   .hexpic {
-    opacity: 1;
+    opacity: 0;
     position: relative;
     //width: 200px;
     //height: 115.47px;
@@ -1127,7 +1127,7 @@ p {
   }
 
   .hex1 {
-    opacity: 1;
+    opacity: 0;
     transition: .25s;
     transform: scale(.5,.5);
     bottom: 228px;
@@ -1135,7 +1135,7 @@ p {
 
   }
   .hex2 {
-    opacity: 1;
+    opacity: 0;
     transition: .25s;
     transform: scale(.5,.5);
     &:hover {
@@ -1149,7 +1149,7 @@ p {
     left: 22px;
   }
   .hex3 {
-    opacity: 1;
+    opacity: 0;
     transition: .25s;
     transform: scale(.5,.5);
     &:hover {
@@ -1163,7 +1163,7 @@ p {
     left: 130px;
   }
   .hex4 {
-    opacity: 1;
+    opacity: 0;
     transition: .25s;
     transform: scale(0.5,0.5);
     &:hover {
@@ -1177,7 +1177,7 @@ p {
     left: 77px;
   }
   .hex5 {
-    opacity: 1;
+    opacity: 0;
     transition: .25s;
     transform: scale(0.5,0.5);
     &:hover {
@@ -1191,7 +1191,7 @@ p {
     left: 184px;
   }
   .hex6 {
-    opacity: 1;
+    opacity: 0;
     transform: scale(0.5,0.5);
     transition: .25s;
     &:hover {
@@ -1205,7 +1205,7 @@ p {
     right: 30px;
   }
   .hex7 {
-    opacity: 1;
+    opacity: 0;
     transition: .25s;
     transform: scale(0.5,0.5);
     bottom: 990px;
@@ -1215,7 +1215,7 @@ p {
     }
   }
   .hex8 {
-    opacity: 1;
+    opacity: 0;
     transition: .25s;
     transform: scale(0.5,0.5);
     bottom: 1164px;
@@ -1225,7 +1225,7 @@ p {
     }
   }
   .hex9 {
-    opacity: 1;
+    opacity: 0;
     transition: .25s;
     transform: scale(0.5,0.5);
     bottom: 1245px;

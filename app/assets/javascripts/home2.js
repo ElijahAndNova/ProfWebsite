@@ -18,6 +18,5 @@ $(document).ready((function() {
     setTimeout(function() { $('.hex7').fadeTo(500, 1); }, 1750);
     setTimeout(function() { $('.hex8').fadeTo(500, 1); }, 2000);
     setTimeout(function() { $('.hex9').fadeTo(500, 1); }, 2250);
-    // setTimeout(function() { $('.hex10').fadeTo(500, 1); }, 2500);
 
 }));
