@@ -1,6 +1,7 @@
 function fadeThemIn(){
     // $('.panel-about').stop().fadeTo(750, 1);
     // $('.panel-about2').stop().fadeTo(750, 1);
+    // $('.home_button').stop().fadeTo(1000, 1);
     fadeInPanel2();
     setTimeout(function() { fadeInPanel(); }, 500);
     setTimeout(function () { fadeInPic(); }, 1000);
