@@ -11,6 +11,14 @@ function show(counter){
     $('#row_'+counter).fadeIn(750);
 }
 
+function showAllForMobile(){
+    $('.proj1').fadeIn(750);
+    $('.proj2').fadeIn(750);
+    $('.proj3').fadeIn(750);
+    $('.proj4').fadeIn(750);
+    $('.proj5').fadeIn(750);
+}
+
 function start(){
     $('.toFade').stop().fadeTo(750, 1);
 }
@@ -83,6 +91,10 @@ $(document).ready((function() {
     $('.arrow-up').mouseleave(function(){
         $('.arrow-up').css("transform", "scale(1,1)");
     })
+
+    if ( $('.global').css('display') == 'none' ) {
+        showAllForMobile();
+    }
 
 }));
 

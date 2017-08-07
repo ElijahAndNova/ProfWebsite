@@ -2,28 +2,58 @@
 
 <% #provide(:title, "Code Portfolio") %>
 
-<div class="portfolio-panels">
-
-  <%= image_tag("up_arrow.png", class:"arrow-up") %>
-
-  <div class="panel-codeblock">
-    <% @projects.each_with_index do |project, i| %>
-        <div class="row project-panel" id="row_<%=i+1%>">
-          <div class="col-xs-7 project_title", style="display:inline">
-            <%= project.title %>
-          </div>
-          <div class="col-xs-7 project_description">
-            <%= project.description.html_safe %>
-          </div>
-          <div class="col-xs-5">
-            <%= image_tag(project.image_filepath) %>
-          </div>
-        </div>
-    <% end %>
-  </div>
-
-  <%= image_tag("down_arrow.png", class:"arrow-down") %>
-
+<div class="home_button">
+  <%= link_to "Home", root_path, class: "btn btn-lg texty"%>
 </div>
 
-<%= link_to "Home", root_path, class: "btn btn-lg "%>
+
+<div class="global">
+  <div class="portfolio-panels">
+
+    <%= image_tag("up_arrow.png", class:"arrow-up") %>
+
+    <div class="panel-codeblock">
+      <% @projects.each_with_index do |project, i| %>
+          <div class="row project-panel" id="row_<%=i+1%>">
+            <div class="col-xs-7 project_title", style="display:inline">
+              <%= project.title %>
+            </div>
+            <div class="col-xs-7 project_description">
+              <%= project.description.html_safe %>
+            </div>
+            <div class="col-xs-5">
+              <%= image_tag(project.image_filepath) %>
+            </div>
+          </div>
+      <% end %>
+    </div>
+
+    <%= image_tag("down_arrow.png", class:"arrow-down") %>
+
+  </div>
+</div>
+
+<div class="mobile">
+  <div class="portfolio-panels">
+
+    <div class="proj1">
+      <div class="proj_title">
+        3D Engine - Built From Scratch
+      </div>
+      <%= image_tag("comet.png", class:"proj_pic") %>
+      <div class="proj_description">
+        &nbsp;&nbsp;&nbsp;&nbsp; I began developing this engine almost a year ago. This powerful work-in-progress 3D engine was written from scratch in Java, using only OpenGL.
+        I plan to eventually release this project as a free download. The engine supports realistic physics, .obj model parsing, animation, particle effects,
+        skyboxes, fog clipping, procedurally generated terrain, rippling water, and more.
+        <br> <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; Upon release, I envision a program that allows the player to vary some settings that effect terrain generation, and explore the
+        resulting world. The world will be populated with randomized alien scuttlers, flowing volcanoes, and deep oceans. The player can make use of the jetpack attached
+        to their astronaut to fly around.
+        <br> <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; And there are many more features to come! Stay tuned for updates and progress videos, as well as a download link.
+        Soon, I will be devoting a whole page on my site to this project.
+      </div>
+    </div>
+
+  </div>
+</div>
