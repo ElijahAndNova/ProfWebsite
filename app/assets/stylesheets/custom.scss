@@ -1092,6 +1092,15 @@ p {
     transform: scale(1.06,1.06);
   }
 }
+.hex10{
+  opacity: 0;
+  bottom: 1730px;
+  left: 788px;
+  transition: .25s;
+  &:hover{
+    transform: scale(1.06,1.06);
+  }
+}
 
 //////////////////////////////////////////////////////////////
 
@@ -1269,8 +1278,8 @@ p {
 .text{
   color: lightslategray;
   z-index: 3;
-  top: 32px;
-  font-size: 27px;
+  top: 36px;
+  font-size: 24px;
   position: relative;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
@@ -1303,6 +1312,14 @@ p {
 }
 
 .github_hex{
+  width: 69%;
+  position: relative;
+  z-index: 3;
+  left: 30px;
+  bottom: 12px;
+}
+
+.facebook_hex{
   width: 69%;
   position: relative;
   z-index: 3;
