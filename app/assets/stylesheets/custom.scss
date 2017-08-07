@@ -100,6 +100,9 @@ h7 {
   }
   .mobile{
     display: block;
+    .hexpic{
+
+    }
   }
   .navbar{
     display: none;
@@ -1116,7 +1119,8 @@ p {
   .hexpic {
     opacity: 1;
     position: relative;
-    //left: 355px;
+    //width: 200px;
+    //height: 115.47px;
     width: 200px;
     height: 115.47px;
     margin: 57.74px 0;
@@ -1125,13 +1129,17 @@ p {
     background-size: auto 230.9401px;
     background-position: center;
     box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    transform: scale(.6,.6);
+    bottom: 45px;
+    right: 30px;
   }
 
   .hex1 {
     opacity: 1;
-    left: 462px;
-    top: 10px;
     transition: .25s;
+    transform: scale(.6,.6);
+    bottom: 110px;
+    left: 34px;
 
   }
   .hex2 {
