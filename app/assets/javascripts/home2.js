@@ -19,9 +19,11 @@ $(document).ready((function() {
     setTimeout(function() { $('.hex8').fadeTo(500, 1); }, 2000);
     setTimeout(function() { $('.hex9').fadeTo(500, 1); }, 2250);
 
-    if ( $('.global').css('display') == 'none' ){
-        // alert("Mobile version");
-        // $('.mobile').css("left", (screenWidth/2)+50;
-    }
+    $('.hex2').click(function() {
+        if ( $('.global').css('display') == 'none' ){
+            // alert("Mobile version");
+            $('body').css("height", 30000);
+        }
+    });
 
 }));

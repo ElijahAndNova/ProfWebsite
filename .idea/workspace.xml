@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e3cdf93-cae2-43c7-b6d6-2ab9f6d21084" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/portfolio.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/portfolio.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/home2.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/home2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/code_portfolio.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/code_portfolio.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -35,6 +36,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="689">
               <caret line="97" column="29" lean-forward="false" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/home2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -76,8 +87,8 @@
       <file leaf-file-name="custom.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="1760" column="13" lean-forward="false" selection-start-line="1760" selection-start-column="13" selection-end-line="1760" selection-end-column="13" />
+            <state relative-caret-position="615">
+              <caret line="1756" column="16" lean-forward="false" selection-start-line="1756" selection-start-column="16" selection-end-line="1756" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -96,21 +107,33 @@
       <file leaf-file-name="code_portfolio.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/code_portfolio.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+            <state relative-caret-position="670">
+              <caret line="75" column="10" lean-forward="false" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
               <folding>
-                <element signature="e#1220#1226#0#HTML" expanded="true" />
-                <element signature="e#1226#1232#0#HTML" expanded="true" />
-                <element signature="e#1232#1238#0#HTML" expanded="true" />
-                <element signature="e#1238#1244#0#HTML" expanded="true" />
-                <element signature="e#1663#1669#0#HTML" expanded="true" />
-                <element signature="e#1669#1675#0#HTML" expanded="true" />
-                <element signature="e#1675#1681#0#HTML" expanded="true" />
-                <element signature="e#1681#1687#0#HTML" expanded="true" />
-                <element signature="e#2054#2060#0#HTML" expanded="true" />
-                <element signature="e#2060#2066#0#HTML" expanded="true" />
-                <element signature="e#2066#2072#0#HTML" expanded="true" />
-                <element signature="e#2072#2078#0#HTML" expanded="true" />
+                <element signature="e#1221#1227#0#HTML" expanded="true" />
+                <element signature="e#1227#1233#0#HTML" expanded="true" />
+                <element signature="e#1233#1239#0#HTML" expanded="true" />
+                <element signature="e#1239#1245#0#HTML" expanded="true" />
+                <element signature="e#1664#1670#0#HTML" expanded="true" />
+                <element signature="e#1670#1676#0#HTML" expanded="true" />
+                <element signature="e#1676#1682#0#HTML" expanded="true" />
+                <element signature="e#1682#1688#0#HTML" expanded="true" />
+                <element signature="e#2055#2061#0#HTML" expanded="true" />
+                <element signature="e#2061#2067#0#HTML" expanded="true" />
+                <element signature="e#2067#2073#0#HTML" expanded="true" />
+                <element signature="e#2073#2079#0#HTML" expanded="true" />
+                <element signature="e#2499#2505#0#HTML" expanded="true" />
+                <element signature="e#2505#2511#0#HTML" expanded="true" />
+                <element signature="e#2511#2517#0#HTML" expanded="true" />
+                <element signature="e#2517#2523#0#HTML" expanded="true" />
+                <element signature="e#2942#2948#0#HTML" expanded="true" />
+                <element signature="e#2948#2954#0#HTML" expanded="true" />
+                <element signature="e#2954#2960#0#HTML" expanded="true" />
+                <element signature="e#2960#2966#0#HTML" expanded="true" />
+                <element signature="e#3333#3339#0#HTML" expanded="true" />
+                <element signature="e#3339#3345#0#HTML" expanded="true" />
+                <element signature="e#3345#3351#0#HTML" expanded="true" />
+                <element signature="e#3351#3357#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,7 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>application.cs</find>
       <find>navbar-inverse</find>
       <find>a</find>
       <find>NASA_ico</find>
@@ -150,6 +172,7 @@
       <find>media</find>
       <find>research</find>
       <find>border</find>
+      <find>body</find>
     </findStrings>
     <replaceStrings>
       <replace>pic1</replace>
@@ -212,10 +235,10 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/home2.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/about_me.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/home2.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/about.js" />
-        <option value="$PROJECT_DIR$/app/views/static_pages/code_portfolio.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/portfolio.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/home2.js" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/code_portfolio.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
       </list>
     </option>
@@ -1038,12 +1061,12 @@
       <workItem from="1497975223701" duration="14389000" />
       <workItem from="1498584849738" duration="101735000" />
       <workItem from="1500918763035" duration="7274000" />
-      <workItem from="1501648249769" duration="34438000" />
+      <workItem from="1501648249769" duration="34762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197019000" />
+    <option name="totallyTimeSpent" value="197343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1412,18 +1435,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/home2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/home2.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="134" column="29" lean-forward="false" selection-start-line="134" selection-start-column="29" selection-end-line="134" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/about.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/portfolio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="97" column="29" lean-forward="false" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1436,10 +1475,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/home2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="53" />
+        <state relative-caret-position="330">
+          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -1465,47 +1504,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/about.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/portfolio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="97" column="29" lean-forward="false" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/code_portfolio.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        <state relative-caret-position="670">
+          <caret line="75" column="10" lean-forward="false" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
           <folding>
-            <element signature="e#1220#1226#0#HTML" expanded="true" />
-            <element signature="e#1226#1232#0#HTML" expanded="true" />
-            <element signature="e#1232#1238#0#HTML" expanded="true" />
-            <element signature="e#1238#1244#0#HTML" expanded="true" />
-            <element signature="e#1663#1669#0#HTML" expanded="true" />
-            <element signature="e#1669#1675#0#HTML" expanded="true" />
-            <element signature="e#1675#1681#0#HTML" expanded="true" />
-            <element signature="e#1681#1687#0#HTML" expanded="true" />
-            <element signature="e#2054#2060#0#HTML" expanded="true" />
-            <element signature="e#2060#2066#0#HTML" expanded="true" />
-            <element signature="e#2066#2072#0#HTML" expanded="true" />
-            <element signature="e#2072#2078#0#HTML" expanded="true" />
+            <element signature="e#1221#1227#0#HTML" expanded="true" />
+            <element signature="e#1227#1233#0#HTML" expanded="true" />
+            <element signature="e#1233#1239#0#HTML" expanded="true" />
+            <element signature="e#1239#1245#0#HTML" expanded="true" />
+            <element signature="e#1664#1670#0#HTML" expanded="true" />
+            <element signature="e#1670#1676#0#HTML" expanded="true" />
+            <element signature="e#1676#1682#0#HTML" expanded="true" />
+            <element signature="e#1682#1688#0#HTML" expanded="true" />
+            <element signature="e#2055#2061#0#HTML" expanded="true" />
+            <element signature="e#2061#2067#0#HTML" expanded="true" />
+            <element signature="e#2067#2073#0#HTML" expanded="true" />
+            <element signature="e#2073#2079#0#HTML" expanded="true" />
+            <element signature="e#2499#2505#0#HTML" expanded="true" />
+            <element signature="e#2505#2511#0#HTML" expanded="true" />
+            <element signature="e#2511#2517#0#HTML" expanded="true" />
+            <element signature="e#2517#2523#0#HTML" expanded="true" />
+            <element signature="e#2942#2948#0#HTML" expanded="true" />
+            <element signature="e#2948#2954#0#HTML" expanded="true" />
+            <element signature="e#2954#2960#0#HTML" expanded="true" />
+            <element signature="e#2960#2966#0#HTML" expanded="true" />
+            <element signature="e#3333#3339#0#HTML" expanded="true" />
+            <element signature="e#3339#3345#0#HTML" expanded="true" />
+            <element signature="e#3345#3351#0#HTML" expanded="true" />
+            <element signature="e#3351#3357#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="1760" column="13" lean-forward="false" selection-start-line="1760" selection-start-column="13" selection-end-line="1760" selection-end-column="13" />
+        <state relative-caret-position="615">
+          <caret line="1756" column="16" lean-forward="false" selection-start-line="1756" selection-start-column="16" selection-end-line="1756" selection-end-column="16" />
           <folding />
         </state>
       </provider>
