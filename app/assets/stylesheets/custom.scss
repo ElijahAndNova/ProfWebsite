@@ -1528,13 +1528,17 @@ p {
   border: 1px solid white;
   background: $purple-opaque;
   width: 80px;
-  height: 40px;
+  height: 30px;
   position: relative;
   top: 50px;
-  font-size: 26px;
+  font-size: 20px;
   color: white;
   text-align: center;
   transition: .25s;
+  .texty{
+    position: relative;
+    bottom: 10px;
+  }
   &:hover{
     transition: scale(1.02, 1.02);
     color: darkgoldenrod;
