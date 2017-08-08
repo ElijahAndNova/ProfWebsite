@@ -13,3 +13,10 @@
 //= require rails-ujs
 //= require turbolinks
 //= require jquery
+//= require particles
+
+$(document).ready(function() {
+    particlesJS.load('particles-js', $('#particles-json').data('particles'), function() {
+        console.log('particles.js config loaded');
+    });
+});

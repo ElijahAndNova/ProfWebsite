@@ -16,7 +16,8 @@ body {
   padding-top: 5px;
   //background-color: palevioletred;
   //background: asset_url("space_wyatt.jpg") no-repeat center center fixed;
-  background: linear-gradient(180deg, black, rgb(10,10,10), rgb(255,255,255)) no-repeat center center fixed;
+  //background: linear-gradient(180deg, black, rgb(10,10,10), rgb(255,255,255)) no-repeat center center fixed;
+  background: black;
   background-size: cover;
   overflow-x: hidden;
   //overflow-y: hidden;
@@ -1854,4 +1855,12 @@ p {
   background: $purple-opaque;
   width: 350px;
   height: 850px;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  bottom: 0px;
 }

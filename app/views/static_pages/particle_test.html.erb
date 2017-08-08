@@ -1,6 +1,3 @@
-<%= javascript_include_tag 'home2', 'data-turbolinks-track'=> 'reload' %>
-
-
 <div id="particles-js"></div>
 <script>
   /* -----------------------------------------------
@@ -32,13 +29,13 @@
                   }
               },
               color: {
-                  value: '#000096'
+                  value: '#fff'
               },
               shape: {
                   type: 'circle',
                   stroke: {
                       width: 0,
-                      color: '#000096'
+                      color: '#ff0000'
                   },
                   polygon: {
                       nb_sides: 5
@@ -72,7 +69,7 @@
               line_linked: {
                   enable: true,
                   distance: 100,
-                  color: '#000096',
+                  color: '#fff',
                   opacity: 1,
                   width: 1
               },
@@ -1545,189 +1542,3 @@
 
   };
 </script>
-
-<!--Display for desktops-->
-<div class="global">
-  <div class="hexpic">
-    <div class="hexTop"></div>
-    <div class="hexBottom"></div>
-  </div>
-
-  <div class="hexagon hex1"><span></span>
-    <div class="nametext">
-      <div>
-        Elijah
-      </div>
-      <div>
-        Spiro
-      </div>
-    </div>
-  </div>
-
-  <%= link_to about_me_path do %>
-    <div class="hexagon hex2"><span></span>
-      <div class="text">
-        About Me
-      </div>
-    </div>
-  <% end %>
-
-  <%= link_to code_portfolio_path do %>
-    <div class="hexagon hex3"><span></span>
-      <div class="text">
-        Code Portfolio
-      </div>
-    </div>
-  <% end %>
-
-  <%= link_to resume_path do %>
-    <div class="hexagon hex4"><span></span>
-      <div class="text">
-        Resumé
-      </div>
-    </div>
-  <% end %>
-
-  <%= link_to research_path do %>
-    <div class="hexagon hex5"><span></span>
-      <div class="text">
-        Research
-      </div>
-    </div>
-  <% end %>
-
-  <%= link_to publications_path do %>
-    <div class="hexagon hex6"><span></span>
-      <div class="text">
-        Publications
-      </div>
-    </div>
-  <% end %>
-
-  <%= link_to "https://www.linkedin.com/in/elijah-spiro-009526109/", target: :_blank do %>
-    <div class="hexagon hex7"><span></span>
-      <%= image_tag("link_logo.png", class: :link_hex, alt: "LinkdIn") %>
-    </div>
-  <% end %>
-
-  <%= link_to "https://www.nasa.gov/education/intern/feature/elijah-spiro-getting-by-with-a-little-help-from-a-friend", target: :_blank do %>
-    <div class="hexagon hex8"><span></span>
-      <%= image_tag("NASA_logo.png", class: :nasa_hex, alt: "NASA") %>
-    </div>
-  <% end %>
-
-  <%= link_to "https://github.com/ElijahAndNova", target: :_blank do %>
-    <div class="hexagon hex9"><span></span>
-      <%= image_tag("github_logo.png", class: :github_hex, alt: "GitHub") %>
-    </div>
-  <% end %>
-
-  <%= link_to get_in_touch_path do %>
-      <div class="hexagon hex10"><span></span>
-        <div class="text">
-          Get In Touch
-        </div>
-      </div>
-  <% end %>
-
-</div>
-
-
-
-<!--Display for mobile-->
-<div class="mobile">
-
-  <div class="hexpic">
-    <div class="hexTop"></div>
-    <div class="hexBottom"></div>
-  </div>
-
-  <div class="hexagon hex1"><span></span>
-    <div class="nametext">
-      <div>
-        Elijah
-      </div>
-      <div>
-        Spiro
-      </div>
-    </div>
-  </div>
-
-  <%= link_to about_me_path do %>
-      <div class="hexagon hex2"><span></span>
-        <div class="text">
-          About Me
-        </div>
-      </div>
-  <% end %>
-
-  <%= link_to code_portfolio_path do %>
-      <div class="hexagon hex3"><span></span>
-        <div class="text">
-          Code Portfolio
-        </div>
-      </div>
-  <% end %>
-
-  <%= link_to resume_path do %>
-      <div class="hexagon hex4"><span></span>
-        <div class="text">
-          Resumé
-        </div>
-      </div>
-  <% end %>
-
-  <%= link_to research_path do %>
-      <div class="hexagon hex5"><span></span>
-        <div class="text">
-          Research
-        </div>
-      </div>
-  <% end %>
-
-  <%= link_to publications_path do %>
-      <div class="hexagon hex6"><span></span>
-        <div class="text">
-          Publications
-        </div>
-      </div>
-  <% end %>
-
-  <%= link_to "https://www.linkedin.com/in/elijah-spiro-009526109/", target: :_blank do %>
-      <div class="hexagon hex7"><span></span>
-        <%= image_tag("link_logo.png", class: :link_hex, alt: "LinkdIn") %>
-      </div>
-  <% end %>
-
-  <%= link_to "https://www.nasa.gov/education/intern/feature/elijah-spiro-getting-by-with-a-little-help-from-a-friend", target: :_blank do %>
-      <div class="hexagon hex8"><span></span>
-        <%= image_tag("NASA_logo.png", class: :nasa_hex, alt: "NASA") %>
-      </div>
-  <% end %>
-
-  <%= link_to "https://github.com/ElijahAndNova", target: :_blank do %>
-      <div class="hexagon hex9"><span></span>
-        <%= image_tag("github_logo.png", class: :github_hex, alt: "GitHub") %>
-      </div>
-  <% end %>
-
-  <%= link_to get_in_touch_path do %>
-      <div class="hexagon hex10"><span></span>
-        <div class="text">
-          Get In Touch
-        </div>
-      </div>
-  <% end %>
-
-</div>
-
-<!--////////////////////////-->
-
-
-
-
-
-
-
-
-

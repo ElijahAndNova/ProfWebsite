@@ -13,3 +13,9 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
 Rails.application.config.assets.precompile += %w(home.js home2.js home3.js old_home.js portfolio.js about.js resume.js awards.js research.js publications.js get_in_touch.js)
+
+
+#Particles
+# Rails.application.config.assets.paths << Rails.root.join('vendor', 'assets', 'javascripts')
+# Rails.application.config.assets.paths << Rails.root.join('app', 'assets', 'javascripts')
+Rails.application.config.assets.precompile += %w( .js .es6 particles.json )

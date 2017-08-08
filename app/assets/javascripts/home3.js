@@ -1,5 +1,11 @@
 $(document).ready((function() {
 
+    if(document.URL.indexOf("#")==-1){
+        url = document.URL+"#";
+        location = "#";
+        location.reload(true);
+    }
+
     var screenWidth = window.innerWidth;
     var screenHeight = window.innerHeight;
     $('.global').css("margin-left", ((screenWidth - 300) / 2+35-600));

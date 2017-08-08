@@ -11,7 +11,7 @@
   </head>
   <body>
     <%= render 'layouts/header' %>
-    <div class="">
+    <div id="particles-json" data-particles="<%= asset_path('particles.json') %>">
       <%= yield %>
       <!--<%= render 'layouts/footer' %>-->
     </div>
