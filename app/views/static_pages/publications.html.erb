@@ -1,21 +1,53 @@
 <%= javascript_include_tag 'publications', 'data-turbolinks-track'=> 'reload' %>
 
-<div class="publication-panels">
-  <div class="panel-publications0">
-    <div class="panel-publications1">
-      <div id="toFade">
-        <div class="pub-text">
-          Co-author on a scientific paper in astrophysical research.
-          <br/>
-          Provided code to assist in data reduction and analysis.
-        </divpub-text>
-        <%= link_to "Open Article", "https://arxiv.org/pdf/1704.06260.pdf", class: "btn btn-lg btn-pub1", target: :_blank %>
+<div class="global">
+  <div class="publication-panels">
+    <div class="panel-publications0">
+      <div class="panel-publications1">
+        <div id="toFade">
+          <div class="pub-text">
+            Co-author on a scientific paper in astrophysical research.
+            <br/>
+            Provided code to assist in data reduction and analysis.
+          </divpub-text>
+          <%= link_to "Open Article", "https://arxiv.org/pdf/1704.06260.pdf", class: "btn btn-lg btn-pub1", target: :_blank %>
+        </div>
+      </div>
+      <div class="panel-publications2">
+        <div id="toFade">
+          <div class="pub-text">
+            Upcoming thesis project discussing the possible existence of planetary candidate HD142527b.
+          </div>
+        </div>
       </div>
     </div>
-    <div class="panel-publications2">
-      <div id="toFade">
-        <div class="pub-text">
-          Upcoming thesis project discussing the possible existence of planetary candidate HD142527b.
+  </div>
+  </div>
+</div>
+
+<div class="home_button">
+  <%= link_to "Home", root_path, class: "btn btn-lg texty"%>
+</div>
+
+<div class="mobile">
+  <div class="publication-panels">
+    <div class="panel-publications0">
+      <div class="panel-publications1">
+        <div id="toFade">
+          <div class="pub-text">
+            Co-author on a scientific paper in astrophysical research.
+            <br/>
+            Provided code to assist in data reduction and analysis.
+            </divpub-text>
+            <%= link_to "Open Article", "https://arxiv.org/pdf/1704.06260.pdf", class: "btn btn-lg btn-pub1", target: :_blank %>
+          </div>
+        </div>
+        <div class="panel-publications2">
+          <div id="toFade">
+            <div class="pub-text">
+              Upcoming thesis project discussing the possible existence of planetary candidate HD142527b.
+            </div>
+          </div>
         </div>
       </div>
     </div>
