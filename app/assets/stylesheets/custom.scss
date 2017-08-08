@@ -305,37 +305,6 @@ h4 {
   opacity: 0;
 }
 
-.panel-get-in-touch{
-   width: 1000px;
-   height: 600px;
-   background: $purple-clear;
-   border: 1px solid white;
-   margin: auto;
-   opacity: 0;
- }
-
-.panel-get-in-touch2{
-  position: relative;
-  top: 35px;
-  width: 400px;
-  height: 160px;
-  background: $purple-clear2;
-  border: 1px solid darkgoldenrod;
-  margin: auto;
-  opacity: 0;
-}
-
-.panel-get-in-touch3{
-  position: relative;
-  top: 65px;
-  width: 800px;
-  height: 340px;
-  background: $purple-clear2;
-  border: 1px solid darkgoldenrod;
-  margin: auto;
-  opacity: 0;
-}
-
 .para1{
   color: white;
   font-size: 20px;
@@ -779,6 +748,50 @@ p {
   position: relative;
   margin: auto;
 
+  .panel-get-in-touch{
+    width: 1000px;
+    height: 600px;
+    background: $purple-clear;
+    border: 1px solid white;
+    margin: auto;
+    opacity: 0;
+  }
+
+  .panel-get-in-touch2{
+    position: relative;
+    top: 35px;
+    width: 400px;
+    height: 160px;
+    background: $purple-clear2;
+    border: 1px solid darkgoldenrod;
+    margin: auto;
+    opacity: 0;
+  }
+
+  .panel-get-in-touch3{
+     position: relative;
+     top: 65px;
+     width: 400px;
+     height: 340px;
+     background: $purple-clear2;
+     border: 1px solid darkgoldenrod;
+     margin: auto;
+     right: 220px;
+     opacity: 0;
+   }
+
+  .panel-get-in-touch4{
+    position: relative;
+    bottom: 275px;
+    width: 400px;
+    left: 220px;
+    height: 340px;
+    background: $purple-clear2;
+    border: 1px solid darkgoldenrod;
+    margin: auto;
+    opacity: 0;
+  }
+
   .panel-research4 {
     padding: 10px;
     border: 1px solid white;
@@ -1009,7 +1022,7 @@ p {
   .hex7 {
     opacity: 0;
     bottom: 1028px;
-    left: 893px;
+    left: 883px;
     transition: .25s;
     &:hover {
       transform: scale(1.06, 1.06);
@@ -1018,7 +1031,7 @@ p {
   .hex8 {
     opacity: 0;
     bottom: 1384px;
-    left: 1000px;
+    left: 990px;
     transition: .25s;
     &:hover {
       transform: scale(1.06, 1.06);
@@ -1027,7 +1040,7 @@ p {
   .hex9 {
     opacity: 0;
     bottom: 1740px;
-    left: 893px;
+    left: 883px;
     transition: .25s;
     &:hover {
       transform: scale(1.06, 1.06);
@@ -1036,10 +1049,14 @@ p {
   .hex10 {
     opacity: 0;
     bottom: 1730px;
-    left: 788px;
+    left: 778px;
     transition: .25s;
     &:hover {
       transform: scale(1.06, 1.06);
+      .text {
+        transition: .25s;
+        color: darkgoldenrod;
+      }
     }
   }
   .panel-about {
@@ -1119,6 +1136,50 @@ p {
   position: relative;
   margin: auto;
   top: 20px;
+
+  .panel-get-in-touch{
+    width: 400px;
+    height: 1200px;
+    background: $purple-clear;
+    border: 1px solid white;
+    margin: auto;
+    opacity: 0;
+  }
+
+  .panel-get-in-touch2{
+    position: relative;
+    top: 35px;
+    width: 400px;
+    height: 160px;
+    background: $purple-clear2;
+    border: 1px solid darkgoldenrod;
+    margin: auto;
+    opacity: 0;
+  }
+
+  .panel-get-in-touch3{
+    position: relative;
+    top: 65px;
+    width: 800px;
+    height: 400px;
+    background: $purple-clear2;
+    border: 1px solid darkgoldenrod;
+    margin: auto;
+    margin-bottom: 30px;
+    opacity: 0;
+  }
+
+  .panel-get-in-touch4{
+    position: relative;
+    top: 65px;
+    width: 800px;
+    height: 500px;
+    margin-bottom: 25px;
+    background: $purple-clear2;
+    border: 1px solid darkgoldenrod;
+    margin: auto;
+    opacity: 0;
+  }
 
   .panel-research4 {
     padding: 10px;
@@ -1382,12 +1443,17 @@ p {
     }
   }
   .hex10 {
-    opacity: 1;
-    bottom: 1730px;
-    left: 788px;
+    opacity: 0;
+    bottom: 1418px;
+    left: 184px;
     transition: .25s;
+    transform: scale(0.5,0.5);
     &:hover {
-      transform: scale(1.06, 1.06);
+      transform: scale(.56, .56);
+      .text {
+        transition: .25s;
+        color: darkgoldenrod;
+      }
     }
   }
   .panel-about {
@@ -1702,6 +1768,7 @@ p {
   color: white;
   text-align: center;
   transition: .25s;
+  margin-bottom: 25px;
   .texty{
     position: relative;
     bottom: 10px;

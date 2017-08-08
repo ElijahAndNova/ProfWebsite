@@ -18,5 +18,6 @@ $(document).ready((function() {
     $('.hex7').fadeTo(500, 1);
     $('.hex8').fadeTo(500, 1);
     $('.hex9').fadeTo(500, 1);
+    $('.hex10').fadeTo(500, 1);
 
 }));
