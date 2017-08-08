@@ -1,12 +1,32 @@
 <%= javascript_include_tag 'resume', 'data-turbolinks-track'=> 'reload' %>
 
-<div class="panel-resume0">
-  <div class="panel-resume1">
-    <div id="toFade">
-      <div class="h2">Resume</div>
-      <div class="row">
-        <%= link_to "Open", resume_open_path, class: "btn btn-lg btn-resume", target: :_blank %>
-        <%= link_to "Download", resume_download_path, class: "btn btn-lg btn-resume"%>
+<div class="global">
+  <div class="panel-resume0">
+    <div class="panel-resume1">
+      <div id="toFade">
+        <div class="h2">Resume</div>
+        <div class="row">
+          <%= link_to "Open", resume_open_path, class: "btn btn-lg btn-resume", target: :_blank %>
+          <%= link_to "Download", resume_download_path, class: "btn btn-lg btn-resume"%>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="home_button">
+  <%= link_to "Home", root_path, class: "btn btn-lg texty"%>
+</div>
+
+<div class="mobile">
+  <div class="panel-resume0">
+    <div class="panel-resume1">
+      <div id="toFade">
+        <div class="h2">Resume</div>
+        <div class="row">
+          <%= link_to "Open", resume_open_path, class: "btn btn-lg btn-resume", target: :_blank %>
+          <%= link_to "Download", resume_download_path, class: "btn btn-lg btn-resume"%>
+        </div>
       </div>
     </div>
   </div>

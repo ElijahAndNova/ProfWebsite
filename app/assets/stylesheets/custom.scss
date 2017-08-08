@@ -465,15 +465,6 @@ h4 {
    opacity: 0;
  }
 
-.panel-resume0{
-  width: 800px;
-  height: 400px;
-  background: $purple-clear;
-  border: 1px solid white;
-  margin: auto;
-  opacity: 0;
-}
-
 .panel-get-in-touch2{
   position: relative;
   top: 35px;
@@ -698,21 +689,6 @@ a:hover{
 .inner {
   margin-left: auto;
   margin-right: auto;
-}
-
-.panel-resume1 {
-  border: 1px solid darkgoldenrod;
-  opacity: 0;
-  display: hidden !important;
-  background: $purple-clear2;
-  position: relative;
-  text-align: center;
-  line-height: 20px;
-  color: white;
-  width: 600px;
-  height: 200px;
-  margin: auto;
-  top: 100px;
 }
 
 .pub-text {
@@ -1076,6 +1052,30 @@ p {
   position: relative;
   margin: auto;
 
+  .panel-resume1 {
+    border: 1px solid darkgoldenrod;
+    opacity: 0;
+    display: hidden !important;
+    background: $purple-clear2;
+    position: relative;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    width: 600px;
+    height: 200px;
+    margin: auto;
+    top: 100px;
+  }
+
+  .panel-resume0{
+    width: 800px;
+    height: 400px;
+    background: $purple-clear;
+    border: 1px solid white;
+    margin: auto;
+    opacity: 0;
+  }
+
   .hexpic {
     opacity: 0;
     position: relative;
@@ -1275,6 +1275,31 @@ p {
   position: relative;
   margin: auto;
   top: 20px;
+
+  .panel-resume1 {
+    border: 1px solid darkgoldenrod;
+    opacity: 0;
+    display: hidden !important;
+    background: $purple-clear2;
+    position: relative;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    top: 50px;
+  }
+
+  .panel-resume0{
+    width: 300px;
+    height: 300px;
+    background: $purple-clear;
+    border: 1px solid white;
+    margin: auto;
+    opacity: 0;
+  }
+
   .hexpic {
     opacity: 0;
     position: relative;
