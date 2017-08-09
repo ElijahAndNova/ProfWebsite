@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+    <html xmlns="http://www.w3.org/1999/xhtml"
+    prefix="og: http://ogp.me/ns#">
     <%= favicon_link_tag 'favicon.ico' %>
     <title><%= full_title(yield(:title)) %></title>
     <meta name="turbolinks-cache-control" content="no-cache">
@@ -10,7 +11,8 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track'=> 'reload' %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:image" content="app/assets/Me1.jpg">
-  </head>
+    <meta property="og:description" content="Learn about me and my work.">
+    </head>
   <body>
     <%= render 'layouts/header' %>
     <div id="particles-json" data-particles="<%= asset_path('particles.json') %>">
