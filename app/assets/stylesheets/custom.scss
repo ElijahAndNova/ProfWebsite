@@ -1558,7 +1558,7 @@ p {
   transform: scaleY(0.5774) rotate(-45deg);
   background: inherit;
   left: 29.29px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  //box-shadow: 0 0 20px darkgoldenrod;
 }
 
 /*counter transform the bg image on the caps*/
@@ -1628,7 +1628,8 @@ p {
   transform: scaleY(0.5774) rotate(-45deg);
   background-color: $purple;
   left: 29.2893px;
-  box-shadow: 0 0 20px rgba(0,0,0,1);
+  //box-shadow: 0 0 20px rgba(0,0,0,1);
+  //box-shadow: 0px 0px 20px 0px darkgoldenrod;
 }
 
 .hexagon:before {
@@ -1649,6 +1650,8 @@ p {
   height:115.4701px;
   z-index: 2;
   background-color: $purple;
+  //box-shadow: 0px 0px 20px 0 darkgoldenrod;
+  //box-shadow: 22px 0px 20px -20px darkgoldenrod, -22px 0px 10px -20px darkgoldenrod;
 }
 
 //////////////////////////////////////////////////////
