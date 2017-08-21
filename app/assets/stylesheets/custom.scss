@@ -20,6 +20,7 @@ body {
   background: black;
   background-size: cover;
   overflow-x: hidden;
+
   //overflow-y: hidden;
 }
 
@@ -748,6 +749,8 @@ p {
 .global {
   position: relative;
   margin: auto;
+  //transform: scale(0.75,0.75);
+
 
   .panel-get-in-touch{
     width: 1000px;
@@ -935,9 +938,10 @@ p {
   }
 
   .hexpic {
+    transform: scale(0.7,0.7);
     opacity: 0;
     position: relative;
-    left: 355px;
+    left: 566px;
     width: 200px;
     height: 115.47px;
     margin: 57.74px 0;
@@ -945,118 +949,149 @@ p {
     transition: .25s;
     background-size: auto 230.9401px;
     background-position: center;
-    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    &:hover{
+      cursor: pointer;
+    }
+    //box-shadow: 0 0 20px rgba(0,0,0,0.6);
   }
 
   .hex1 {
+    transform: scale(0.7,0.7);
     opacity: 0;
-    left: 462px;
-    top: 10px;
+    left: 885px;
+    bottom: 174px;
     transition: .25s;
+    &:hover {
+      cursor: pointer;
+      //transform: scale(.86, .86);
+      background-color: darkgoldenrod;
+      .nametext {
+        transition: .25s;
+        color: $purple;
+      }
+    }
 
   }
   .hex2 {
+    transform: scale(0.7,0.7);
     opacity: 0;
-    bottom: 163px;
-    left: 249px;
+    bottom: 208px;
+    left: 485px;
     transition: .25s;
     &:hover {
-      transform: scale(1.06, 1.06);
+      transform: scale(.86, .86);
+      background-color: darkgoldenrod;
       .text {
         transition: .25s;
-        color: darkgoldenrod;
+        color: black;
       }
     }
   }
   .hex3 {
+    transform: scale(0.7,0.7);
     opacity: 0;
     bottom: 520px;
-    left: 143px;
+    left: 406px;
     transition: .25s;
     &:hover {
-      transform: scale(1.06, 1.06);
-      .text {
+      background-color: darkgoldenrod;
+      transform: scale(.86, .86);
+      .text_singleline {
         transition: .25s;
-        color: darkgoldenrod;
+        color: black;
       }
     }
   }
   .hex4 {
+    transform: scale(0.7,0.7);
     opacity: 0;
-    bottom: 878px;
-    left: 249px;
+    bottom: 832px;
+    left: 646px;
     transition: .25s;
     &:hover {
-      transform: scale(1.06, 1.06);
+      background-color: darkgoldenrod;
+      transform: scale(.86, .86);
       .text {
         transition: .25s;
-        color: darkgoldenrod;
+        color: black;
       }
     }
   }
   .hex5 {
+    transform: scale(0.7,0.7);
     opacity: 0;
-    bottom: 1052px;
-    left: 462px;
+    bottom: 1005px;
+    left: 486px;
     transition: .25s;
     &:hover {
-      transform: scale(1.06, 1.06);
+      background-color: darkgoldenrod;
+      transform: scale(.86, .86);
       .text {
         transition: .25s;
-        color: darkgoldenrod;
+        color: black;
       }
     }
   }
   .hex6 {
+    transform: scale(0.7,0.7);
     opacity: 0;
     bottom: 1039px;
-    left: 567px;
+    left: 725px;
     transition: .25s;
     &:hover {
-      transform: scale(1.06, 1.06);
+      background-color: darkgoldenrod;
+      transform: scale(.86, .86);
       .text {
         transition: .25s;
-        color: darkgoldenrod;
+        color: black;
       }
     }
   }
-  .hex7 {
+  .hex7 { //Linkedin
+    transform: scale(0.7,0.7);
     opacity: 0;
-    bottom: 1028px;
-    left: 883px;
+    bottom: 1072px;
+    left: 968px;
     transition: .25s;
     &:hover {
-      transform: scale(1.06, 1.06);
+      background-color: darkgoldenrod;
+      transform: scale(.86, .86);
     }
   }
-  .hex8 {
+  .hex8 { //NASA
+    transform: scale(0.7,0.7);
     opacity: 0;
-    bottom: 1384px;
-    left: 990px;
+    bottom: 1385px;
+    left: 1045px;
     transition: .25s;
     &:hover {
-      transform: scale(1.06, 1.06);
+      background-color: darkgoldenrod;
+      transform: scale(.86, .86);
     }
   }
-  .hex9 {
+  .hex9 { //Github
+    transform: scale(0.7,0.7);
     opacity: 0;
-    bottom: 1740px;
-    left: 883px;
+    bottom: 1698px;
+    left: 965px;
     transition: .25s;
     &:hover {
-      transform: scale(1.06, 1.06);
+      transform: scale(.86, .86);
+      background-color: darkgoldenrod;
     }
   }
   .hex10 {
+    transform: scale(0.7,0.7);
     opacity: 0;
-    bottom: 1730px;
-    left: 778px;
+    bottom: 1593px;
+    left: 645px;
     transition: .25s;
     &:hover {
-      transform: scale(1.06, 1.06);
+      transform: scale(.86, .86);
+      background-color: darkgoldenrod;
       .text {
         transition: .25s;
-        color: darkgoldenrod;
+        color: black;
       }
     }
   }
@@ -1329,7 +1364,7 @@ p {
     transition: .25s;
     background-size: auto 230.9401px;
     background-position: center;
-    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    //box-shadow: 0 0 20px rgba(0,0,0,0.6);
     transform: scale(.5,.5);
     bottom: 55px;
     right: 30px;
@@ -1612,7 +1647,7 @@ p {
   height: 115.47px;
   background-color: $purple;
   margin: 57.74px 0;
-  box-shadow: 0 0 20px rgba(0,0,0,1);
+  //box-shadow: 0 0 20px rgba(0,0,0,1);
   z-index: 2;
 }
 
@@ -1626,7 +1661,7 @@ p {
   -webkit-transform: scaleY(0.5774) rotate(-45deg);
   -ms-transform: scaleY(0.5774) rotate(-45deg);
   transform: scaleY(0.5774) rotate(-45deg);
-  background-color: $purple;
+  background-color: inherit;
   left: 29.2893px;
   //box-shadow: 0 0 20px rgba(0,0,0,1);
   //box-shadow: 0px 0px 20px 0px darkgoldenrod;
@@ -1649,7 +1684,7 @@ p {
   width:200px;
   height:115.4701px;
   z-index: 2;
-  background-color: $purple;
+  //background-color: $purple;
   //box-shadow: 0px 0px 20px 0 darkgoldenrod;
   //box-shadow: 22px 0px 20px -20px darkgoldenrod, -22px 0px 10px -20px darkgoldenrod;
 }
@@ -1697,20 +1732,21 @@ p {
 }
 
 .text_singleline{
-  color: lightslategray;
+  color: darkgoldenrod;
   z-index: 3;
-  top: 30px;
-  font-size: 27px;
+  top: 15px;
+  font-size: 37px;
   position: relative;
+  line-height: 40px;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
 }
 
 .text{
-  color: lightslategray;
+  color: darkgoldenrod;
   z-index: 3;
-  top: 36px;
-  font-size: 24px;
+  top: 30px;
+  font-size: 34px;
   position: relative;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
@@ -1719,9 +1755,10 @@ p {
 .nametext{
   color: white;
   z-index: 3;
-  bottom: 12px;
+  top: 12px;
   font-family: "Times New Roman", Times, serif;
   font-size: 46px;
+  line-height: 42px;
   position: relative;
   text-align: center;
 }
@@ -1864,6 +1901,59 @@ p {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: black;
+  background-color: bfflack;
   bottom: 0px;
+}
+
+.minihex{
+  position: relative;
+  bottom: 1900px;
+  left: 400px;
+  background-color: rgb(0,100,0) !important;
+}
+
+.hexX {
+  margin-top: 170px;
+  opacity: 0;
+  margin-bottom: -15px;
+  transform: scale(.6,.6);
+  bottom: 2155px;
+  left: 800px;
+  width: 208px;
+  transition: .75s;
+  transition: .5s;
+  height: 120px;
+  background: rgba(184,134,11,.25);
+  position: relative;
+}
+.hexX:before, .hexX:after {
+  content:"";
+  border-left: 104px solid transparent;
+  border-right: 104px solid transparent;
+  position: absolute;
+}
+.hexX:before {
+  top: -60px;
+  border-bottom: 60px solid rgba(184,134,11,.25);
+}
+.hexX:after {
+  bottom: -60px;
+  border-top: 60px solid rgba(184,134,11,.25);
+}
+.hexX.inner2 {
+  background-color: rgba(23,86,130,0.5);
+  -webkit-transform: scale(.8, .8);
+  -moz-transform: scale(.8, .8);
+  transform: scale(.8, .8);
+  z-index:1;
+}
+.hexX.inner2:before {
+  border-bottom: 60px solid rgba(23,86,130,0.5);
+}
+.hexX.inner2:after {
+  border-top: 60px solid rgba(23,86,130,0.5);
+}
+
+.breaker{
+  height: 1000px;
 }

@@ -11,7 +11,7 @@
       "value": "#b8860b"
     },
     "shape": {
-      "type": "edge",
+      "type": "circle",
       "stroke": {
         "width": 0,
         "color": "#000000"
@@ -72,7 +72,7 @@
     "events": {
       "onhover": {
         "enable": false,
-        "mode": "bubble"
+        "mode": "repulse"
       },
       "onclick": {
         "enable": false,
